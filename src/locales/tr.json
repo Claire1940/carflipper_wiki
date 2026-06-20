@@ -1,13 +1,13 @@
 {
   "seo": {
     "home": {
-      "title": "Lucid Blocks Wiki - Demo İndirme, İşbirliği Rehberi, Üretim & Modlar",
-      "description": "Eksiksiz Lucid Blocks kaynak merkezi! Steam gizli soygun oyunu için demo indirme bilgileri, başlangıç rehberleri, işbirliği stratejileri, üretim ipuçları, kontroller, modlar ve topluluk bağlantıları edinin.",
-      "keywords": "Lucid Blocks Wiki, Lucid Blocks, demo indirme, başlangıç rehberi, işbirliği rehberi, üretim, ekipman, modlar, BepInEx, Steam oyunu, gizli oyun",
-      "ogTitle": "Lucid Blocks Wiki - Demo İndirme, İşbirliği Rehberi, Üretim & Modlar",
-      "ogDescription": "Eksiksiz Lucid Blocks kaynak merkezi! Steam gizli soygun oyunu için demo indirme bilgileri, başlangıç rehberleri, işbirliği stratejileri, üretim ipuçları ve modlar edinin.",
-      "twitterTitle": "Lucid Blocks Wiki - Demo İndirme, İşbirliği Rehberi, Üretim & Modlar",
-      "twitterDescription": "Eksiksiz Lucid Blocks kaynak merkezi! Demo indirme bilgileri, başlangıç rehberleri, işbirliği stratejileri ve üretim ipuçları edinin."
+      "title": "Car Flipper Wiki - Codes, Cars & Tuning Guide",
+      "description": "Find Car Flipper codes, vehicle repair tips, tuning shop guide, car upgrades, workshop expansion, racing basics, and Roblox beginner help fast.",
+      "keywords": "Car Flipper, Roblox, codes, cars, tuning, repair, upgrades, workshop",
+      "ogTitle": "Car Flipper Wiki - Codes, Cars & Tuning Guide",
+      "ogDescription": "Find Car Flipper codes, vehicle repair tips, tuning shop guide, car upgrades, workshop expansion, racing basics, and Roblox beginner help fast.",
+      "twitterTitle": "Car Flipper Wiki - Codes, Cars & Tuning Guide",
+      "twitterDescription": "Find Car Flipper codes, vehicle repair, tuning shop guides, car upgrades, and workshop expansion tips for the Roblox game."
     }
   },
   "nav": {
@@ -34,27 +34,27 @@
     "articlesComingSoon": "Makaleler yakında"
   },
   "hero": {
-    "badge": "Ufak cüceler. Büyük evler. Arkadaşlarla gizli soygunlar.",
-    "title": "Lucid Blocks wiki",
-    "description": "Lucid Blocks için merkeziniz: soygunlar nasıl işliyor, Yüksek Cüce işleri, üretim & geliştirmeler, düşmanlar, kontroller ve her koşuda hayatta kalmanın en hızlı yolları.",
-    "getFreeCodesCTA": "Demo İndir",
-    "playOnSteamCTA": "Steam'de İstek Listesine Ekle",
+    "badge": "Roblox Car Repair and Flipping Simulator",
+    "title": "Car Flipper Wiki",
+    "description": "Buy damaged cars, repair them, customize parts, upgrade performance, expand your workshop, collect rare vehicles, and sell builds for profit in Roblox Car Flipper.",
+    "getFreeCodesCTA": "Get Free Codes",
+    "playOnRobloxCTA": "Play on Roblox",
     "stats": {
       "stat1": {
-        "value": "15B",
-        "label": "En Yüksek Eş Zamanlı Kullanıcı (Demo)"
+        "value": "100+",
+        "label": "Vehicles"
       },
       "stat2": {
-        "value": "6",
-        "label": "İşbirliği Oyuncusu"
+        "value": "Hundreds",
+        "label": "Customization Options"
       },
       "stat3": {
-        "value": "31.01.2026",
-        "label": "Demo Yayın Tarihi"
+        "value": "6/18/2026",
+        "label": "Latest Update"
       },
       "stat4": {
-        "value": "PC (Steam)",
-        "label": "Platform"
+        "value": "14",
+        "label": "Server Size"
       }
     }
   },
@@ -819,27 +819,26 @@
     ]
   },
   "cta": {
-    "title": "Soygun Yapmaya Hazır mısınız?",
-    "description": "İşbirliği grupları, güncellemeler ve mod tartışmaları için Discord'da Lucid Blocks topluluğuna katılın!",
-    "joinCommunity": "Discord'a Katıl",
-    "joinGame": "Steam'de Demo Al"
+    "title": "Ready to Flip Cars in Car Flipper?",
+    "description": "Play Car Flipper on Roblox and join the A&B Group developer community for codes, updates, and tuning tips!",
+    "joinCommunity": "Visit Community",
+    "joinGame": "Play on Roblox"
   },
   "footer": {
-    "title": "Lucid Blocks Wiki",
-    "description": "Lucid Blocks gizli soygunları, işbirliği stratejileri, modlar ve topluluk rehberleri için eksiksiz kaynak merkeziniz.",
-    "resources": "Kaynaklar",
-    "community": "Topluluk",
-    "legal": "Yasal",
-    "discord": "Discord",
-    "twitter": "X / Twitter",
-    "steamCommunity": "Steam Topluluğu",
-    "steamStore": "Steam Mağazası",
-    "about": "Hakkında",
-    "privacy": "Gizlilik Politikası",
-    "terms": "Hizmet Şartları",
-    "copyrightNotice": "Telif Hakkı",
-    "copyright": "© 2026 Lucid Blocks Wiki. Lucid Blocks geliştiricileriyle bağlantılı değildir.",
-    "disclaimer": "Resmi olmayan hayran yapımı kaynak web sitesi."
+    "title": "Car Flipper Wiki",
+    "description": "Your complete resource hub for Car Flipper codes, vehicle repair, tuning shop upgrades, car customization, and workshop guides.",
+    "resources": "Resources",
+    "community": "Community",
+    "legal": "Legal",
+    "robloxGame": "Play on Roblox",
+    "robloxCommunity": "Developer Community",
+    "youtube": "Watch Gameplay",
+    "about": "About",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "copyrightNotice": "Copyright",
+    "copyright": "© 2026 Car Flipper Wiki. Not affiliated with A&B Group or the developers of Car Flipper.",
+    "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {
     "guides": {

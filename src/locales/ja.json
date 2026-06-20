@@ -1,13 +1,13 @@
 {
   "seo": {
     "home": {
-      "title": "Lucid Blocks Wiki - クラフト、バイオーム、実績",
-      "description": "Lucid Blocks Wikiでは、Steamで展開される超現実的なボクセルサンドボックスアドベンチャーのクラフト、バイオーム、クリーチャー、アイテム、実績、エンディング、サバイバルのヒントについて解説しています。",
-      "keywords": "Lucid Blocks, Lucid Blocks wiki, クラフト, バイオーム, 実績, サバイバル, Steam",
-      "ogTitle": "Lucid Blocks Wiki - クラフト、バイオーム、実績",
-      "ogDescription": "Lucid Blocks Wikiでは、Steamで展開される超現実的なボクセルサンドボックスアドベンチャーのクラフト、バイオーム、クリーチャー、アイテム、実績、エンディング、サバイバルのヒントについて解説しています。",
-      "twitterTitle": "Lucid Blocks Wiki - クラフト、バイオーム、実績",
-      "twitterDescription": "Lucid Blocks Wikiでは、Steamの超現実的なボクセルサンドボックスにおけるクラフト、バイオーム、クリーチャー、アイテム、実績、サバイバルのヒントを網羅しています。"
+      "title": "Car Flipper Wiki - Codes, Cars & Tuning Guide",
+      "description": "Find Car Flipper codes, vehicle repair tips, tuning shop guide, car upgrades, workshop expansion, racing basics, and Roblox beginner help fast.",
+      "keywords": "Car Flipper, Roblox, codes, cars, tuning, repair, upgrades, workshop",
+      "ogTitle": "Car Flipper Wiki - Codes, Cars & Tuning Guide",
+      "ogDescription": "Find Car Flipper codes, vehicle repair tips, tuning shop guide, car upgrades, workshop expansion, racing basics, and Roblox beginner help fast.",
+      "twitterTitle": "Car Flipper Wiki - Codes, Cars & Tuning Guide",
+      "twitterDescription": "Find Car Flipper codes, vehicle repair, tuning shop guides, car upgrades, and workshop expansion tips for the Roblox game."
     }
   },
   "nav": {
@@ -34,27 +34,27 @@
     "articlesComingSoon": "記事は近日公開予定です"
   },
   "hero": {
-    "badge": "__PROTECTED_c0b0161c__ ボクセル・サバイバル・サンドボックス",
-    "title": "Lucid Blocks Wiki",
-    "description": "夢のようなバイオームを探索し、Apotheosisでアイテムを融合、自由に建築を楽しみましょう。Steamで繰り広げられるこのシュールなオープンワールド・サンドボックスで、奇妙なクリーチャーから生き延びてください。",
-    "getFreeCodesCTA": "クラフトガイドを見る",
-    "playOnSteamCTA": "Steamでプレイ",
+    "badge": "Roblox Car Repair and Flipping Simulator",
+    "title": "Car Flipper Wiki",
+    "description": "Buy damaged cars, repair them, customize parts, upgrade performance, expand your workshop, collect rare vehicles, and sell builds for profit in Roblox Car Flipper.",
+    "getFreeCodesCTA": "Get Free Codes",
+    "playOnRobloxCTA": "Play on Roblox",
     "stats": {
       "stat1": {
-        "value": "1,325",
-        "label": "オンラインプレイヤー"
+        "value": "100+",
+        "label": "Vehicles"
       },
       "stat2": {
-        "value": "1,986",
-        "label": "最大同時接続数"
+        "value": "Hundreds",
+        "label": "Customization Options"
       },
       "stat3": {
-        "value": "97%",
-        "label": "好評"
+        "value": "6/18/2026",
+        "label": "Latest Update"
       },
       "stat4": {
-        "value": "2026年3月12日",
-        "label": "リリース日"
+        "value": "14",
+        "label": "Server Size"
       }
     }
   },
@@ -785,27 +785,26 @@
     ]
   },
   "cta": {
-    "title": "Lucid Blocksを探索する準備はできましたか？",
-    "description": "DiscordのLucid Blocksコミュニティに参加して、ガイドや最新情報、ディスカッションをチェックしましょう！",
-    "joinCommunity": "Discordに参加",
-    "joinGame": "Steamでプレイ"
+    "title": "Ready to Flip Cars in Car Flipper?",
+    "description": "Play Car Flipper on Roblox and join the A&B Group developer community for codes, updates, and tuning tips!",
+    "joinCommunity": "Visit Community",
+    "joinGame": "Play on Roblox"
   },
   "footer": {
-    "title": "Lucid Blocks Wiki",
-    "description": "Lucid Blocksのクラフト、バイオーム、クリーチャー、実績、サバイバルガイドに関する完全なリソースハブです。",
-    "resources": "リソース",
-    "community": "コミュニティ",
-    "legal": "法的情報",
-    "discord": "Discord",
-    "twitter": "X / Twitter",
-    "steamCommunity": "Steam コミュニティ",
-    "steamStore": "Steam ストア",
-    "about": "このサイトについて",
-    "privacy": "プライバシーポリシー",
-    "terms": "利用規約",
-    "copyrightNotice": "著作権",
-    "copyright": "© 2026 Lucid Blocks Wiki. Lucid Blocksの開発元とは提携していません。",
-    "disclaimer": "非公式のファン作成リソースサイトです。"
+    "title": "Car Flipper Wiki",
+    "description": "Your complete resource hub for Car Flipper codes, vehicle repair, tuning shop upgrades, car customization, and workshop guides.",
+    "resources": "Resources",
+    "community": "Community",
+    "legal": "Legal",
+    "robloxGame": "Play on Roblox",
+    "robloxCommunity": "Developer Community",
+    "youtube": "Watch Gameplay",
+    "about": "About",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "copyrightNotice": "Copyright",
+    "copyright": "© 2026 Car Flipper Wiki. Not affiliated with A&B Group or the developers of Car Flipper.",
+    "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {
     "guides": {

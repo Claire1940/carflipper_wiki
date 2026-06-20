@@ -1,13 +1,13 @@
 {
   "seo": {
     "home": {
-      "title": "Вики Lucid Blocks — крафт, биомы и достижения",
-      "description": "Вики Lucid Blocks содержит информацию о крафте, биомах, существах, предметах, достижениях, концовках и советы по выживанию в сюрреалистичной воксельной песочнице на Steam.",
-      "keywords": "Lucid Blocks, вики Lucid Blocks, крафт, биомы, достижения, выживание, Steam",
-      "ogTitle": "Вики Lucid Blocks — крафт, биомы и достижения",
-      "ogDescription": "Вики Lucid Blocks содержит информацию о крафте, биомах, существах, предметах, достижениях, концовках и советы по выживанию в сюрреалистичной воксельной песочнице на Steam.",
-      "twitterTitle": "Вики Lucid Blocks — крафт, биомы и достижения",
-      "twitterDescription": "Вики Lucid Blocks содержит информацию о крафте, биомах, существах, предметах, достижениях и советы по выживанию в сюрреалистичной воксельной песочнице на Steam."
+      "title": "Car Flipper Wiki - Codes, Cars & Tuning Guide",
+      "description": "Find Car Flipper codes, vehicle repair tips, tuning shop guide, car upgrades, workshop expansion, racing basics, and Roblox beginner help fast.",
+      "keywords": "Car Flipper, Roblox, codes, cars, tuning, repair, upgrades, workshop",
+      "ogTitle": "Car Flipper Wiki - Codes, Cars & Tuning Guide",
+      "ogDescription": "Find Car Flipper codes, vehicle repair tips, tuning shop guide, car upgrades, workshop expansion, racing basics, and Roblox beginner help fast.",
+      "twitterTitle": "Car Flipper Wiki - Codes, Cars & Tuning Guide",
+      "twitterDescription": "Find Car Flipper codes, vehicle repair, tuning shop guides, car upgrades, and workshop expansion tips for the Roblox game."
     }
   },
   "nav": {
@@ -34,27 +34,27 @@
     "articlesComingSoon": "Статьи скоро появятся"
   },
   "hero": {
-    "badge": "__PROTECTED_c0b0161c__ Воксельная песочница на выживание",
-    "title": "Lucid Blocks Вики",
-    "description": "Исследуйте сказочные биомы, объединяйте предметы с помощью Apotheosis, свободно стройте и выживайте среди странных существ в этой сюрреалистичной песочнице с открытым миром на Steam.",
-    "getFreeCodesCTA": "Изучить руководство по крафту",
-    "playOnSteamCTA": "Играть на Steam",
+    "badge": "Roblox Car Repair and Flipping Simulator",
+    "title": "Car Flipper Wiki",
+    "description": "Buy damaged cars, repair them, customize parts, upgrade performance, expand your workshop, collect rare vehicles, and sell builds for profit in Roblox Car Flipper.",
+    "getFreeCodesCTA": "Get Free Codes",
+    "playOnRobloxCTA": "Play on Roblox",
     "stats": {
       "stat1": {
-        "value": "1 325",
-        "label": "Игроков онлайн"
+        "value": "100+",
+        "label": "Vehicles"
       },
       "stat2": {
-        "value": "1 986",
-        "label": "Пиковый онлайн"
+        "value": "Hundreds",
+        "label": "Customization Options"
       },
       "stat3": {
-        "value": "97%",
-        "label": "Положительных отзывов"
+        "value": "6/18/2026",
+        "label": "Latest Update"
       },
       "stat4": {
-        "value": "12 марта 2026",
-        "label": "Дата выхода"
+        "value": "14",
+        "label": "Server Size"
       }
     }
   },
@@ -181,27 +181,26 @@
     ]
   },
   "cta": {
-    "title": "Готовы исследовать Lucid Blocks?",
-    "description": "Присоединяйтесь к сообществу Lucid Blocks в Discord, где вас ждут руководства, обновления и обсуждения!",
-    "joinCommunity": "Присоединиться к Discord",
-    "joinGame": "Играть на Steam"
+    "title": "Ready to Flip Cars in Car Flipper?",
+    "description": "Play Car Flipper on Roblox and join the A&B Group developer community for codes, updates, and tuning tips!",
+    "joinCommunity": "Visit Community",
+    "joinGame": "Play on Roblox"
   },
   "footer": {
-    "title": "Вики Lucid Blocks",
-    "description": "Ваш полноценный ресурсный центр по крафту, биомам, существам, достижениям и руководствам по выживанию в Lucid Blocks.",
-    "resources": "Ресурсы",
-    "community": "Сообщество",
-    "legal": "Юридическая информация",
-    "discord": "Discord",
-    "twitter": "X / Twitter",
-    "steamCommunity": "Сообщество Steam",
-    "steamStore": "Магазин Steam",
-    "about": "О проекте",
-    "privacy": "Политика конфиденциальности",
-    "terms": "Условия использования",
-    "copyrightNotice": "Авторское право",
-    "copyright": "© 2026 Вики Lucid Blocks. Не связано с разработчиками Lucid Blocks.",
-    "disclaimer": "Неофициальный фанатский ресурс."
+    "title": "Car Flipper Wiki",
+    "description": "Your complete resource hub for Car Flipper codes, vehicle repair, tuning shop upgrades, car customization, and workshop guides.",
+    "resources": "Resources",
+    "community": "Community",
+    "legal": "Legal",
+    "robloxGame": "Play on Roblox",
+    "robloxCommunity": "Developer Community",
+    "youtube": "Watch Gameplay",
+    "about": "About",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "copyrightNotice": "Copyright",
+    "copyright": "© 2026 Car Flipper Wiki. Not affiliated with A&B Group or the developers of Car Flipper.",
+    "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {
     "guides": {
