@@ -1,3 +1,12 @@
+import {
+	Ticket,
+	BookOpen,
+	Car,
+	Wrench,
+	Trophy,
+	Warehouse,
+	Award,
+} from 'lucide-react'
 import type { LucideIcon } from 'lucide-react'
 
 export interface NavigationItem {
@@ -7,8 +16,16 @@ export interface NavigationItem {
 	isContentType: boolean // 是否对应 content/ 目录
 }
 
-// 导航配置（Part3 阶段清空，后续 Part 按内容类型填充）
-export const NAVIGATION_CONFIG: NavigationItem[] = []
+// 导航配置（Car Flipper 7 个内容分类，community 分类按要求排除）
+export const NAVIGATION_CONFIG: NavigationItem[] = [
+	{ key: 'codes', path: '/codes', icon: Ticket, isContentType: true },
+	{ key: 'guide', path: '/guide', icon: BookOpen, isContentType: true },
+	{ key: 'cars', path: '/cars', icon: Car, isContentType: true },
+	{ key: 'upgrades', path: '/upgrades', icon: Wrench, isContentType: true },
+	{ key: 'tier', path: '/tier', icon: Trophy, isContentType: true },
+	{ key: 'workshop', path: '/workshop', icon: Warehouse, isContentType: true },
+	{ key: 'achievements', path: '/achievements', icon: Award, isContentType: true },
+]
 
 // 从配置派生内容类型列表（用于路由和内容加载）
 export const CONTENT_TYPES = NAVIGATION_CONFIG.filter((item) => item.isContentType).map(

@@ -10,7 +10,15 @@
       "twitterDescription": "Find Car Flipper codes, vehicle repair, tuning shop guides, car upgrades, and workshop expansion tips for the Roblox game."
     }
   },
-  "nav": {},
+  "nav": {
+    "codes": "Codes",
+    "guide": "Guide",
+    "cars": "Cars",
+    "upgrades": "Upgrades",
+    "tier": "Tier List",
+    "workshop": "Workshop",
+    "achievements": "Achievements"
+  },
   "common": {
     "home": "Home",
     "more": "More",
@@ -509,125 +517,145 @@
     "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {
-    "guides": {
-      "title": "Car Flipper Guides",
-      "description": "Complete gameplay guides from beginner basics to advanced tuning strategies. Master repairs, customization, and flipping.",
-      "metaTitle": "Car Flipper Guides - Beginner to Advanced Strategies",
-      "metaDescription": "Complete Car Flipper guides covering beginner tips, repair basics, tuning shop strategies, and expert tactics for mastering the Roblox car flipping sandbox.",
+    "codes": {
+      "title": "Car Flipper Codes",
+      "description": "Claim the latest working Car Flipper codes for free containers, car parts, and progression boosts. Updated with verified active codes and clear redemption steps.",
+      "metaTitle": "Car Flipper Codes - Free Containers & Parts",
+      "metaDescription": "Get free containers, car parts, and progression boosts with active Car Flipper codes. Updated with verified working codes and clear redemption steps.",
+      "categoryLabel": "REDEEM CODES",
+      "whatIs": "What are Car Flipper Codes?",
+      "whatIsDescription": "Car Flipper codes are developer-released redemption keys that grant free containers, car parts, and early-game boosts to speed up your tuning shop progression.",
+      "why": "Why redeem codes?",
+      "whySteps": {
+        "step1Title": "Free Early Resources",
+        "step1Description": "Claim containers and parts that accelerate your first repairs and flips without spending in-game cash",
+        "step2Title": "Simple Redemption",
+        "step2Description": "Open the gift icon menu after the tutorial and paste each code to instantly receive rewards",
+        "step3Title": "Stay Current",
+        "step3Description": "New codes drop with updates, so check back regularly before older codes expire"
+      },
+      "featured": "Featured & Essential",
+      "all": "All Codes"
+    },
+    "guide": {
+      "title": "Car Flipper Guide",
+      "description": "Complete Car Flipper guides from beginner basics to advanced flipping strategies. Master the buy, repair, customize, upgrade, and sell loop.",
+      "metaTitle": "Car Flipper Guide - Beginner to Advanced Strategies",
+      "metaDescription": "Complete Car Flipper guides covering beginner tips, the repair and tuning loop, money strategies, and expert tactics for the Roblox car flipping sandbox.",
       "categoryLabel": "GAME GUIDES",
-      "whatIs": "What are Guides?",
-      "whatIsDescription": "Comprehensive guides covering gameplay mechanics, repair strategies, and the tuning shop system. Learn everything from first steps to advanced techniques.",
-      "why": "Why read guides?",
+      "whatIs": "What is the Car Flipper Guide?",
+      "whatIsDescription": "A complete walkthrough hub covering core mechanics, the repair and tuning loop, and progression strategies from your first damaged car to a full tuning empire.",
+      "why": "Why read the guides?",
       "whySteps": {
         "step1Title": "Learn Core Mechanics",
-        "step1Description": "Understand the repair and tuning loop and avoid common beginner mistakes",
-        "step2Title": "Fast Progression",
-        "step2Description": "Follow proven paths to repair, customize, and flip cars for profit",
+        "step1Description": "Understand the buy, repair, customize, upgrade, and sell loop and avoid beginner mistakes",
+        "step2Title": "Progress Faster",
+        "step2Description": "Follow proven paths to repair, tune, and flip cars for steady profit",
         "step3Title": "Master Strategies",
         "step3Description": "Develop advanced tactics for upgrades, collection, and racing"
       },
       "featured": "Featured & Essential",
       "all": "All Guides"
     },
-    "crafting": {
-      "title": "Car Flipper Tuning",
-      "description": "Master the Tuning Shop with performance parts, upgrade routes, and tuning strategies for powerful builds.",
-      "metaTitle": "Car Flipper Tuning - Performance Parts & Upgrade Routes",
-      "metaDescription": "Master Car Flipper tuning. Learn performance parts, upgrade routes, and strategies for creating stronger, faster vehicles.",
-      "categoryLabel": "TUNING SHOP",
-      "whatIs": "What is Tuning?",
-      "whatIsDescription": "The Tuning Shop is the upgrade layer where you install performance parts and shape each car into a stronger, more personal build after repairs.",
-      "why": "Why master tuning?",
+    "cars": {
+      "title": "Car Flipper Cars",
+      "description": "Browse the full Car Flipper vehicle list with types, rarity, and value guides to find the best cars to repair, tune, and flip.",
+      "metaTitle": "Car Flipper Cars - Vehicle List, Rarity & Value",
+      "metaDescription": "Explore every Car Flipper vehicle including common, rare, and collectible cars. Compare types, rarity, and value to choose the best cars to flip or keep.",
+      "categoryLabel": "VEHICLE LIST",
+      "whatIs": "What are Car Flipper Cars?",
+      "whatIsDescription": "A database of the 100+ vehicles in Car Flipper, covering types, rarity, resale value, and collection logic so you always know which car to repair, tune, or sell.",
+      "why": "Why study the car list?",
       "whySteps": {
-        "step1Title": "Upgrade Performance",
-        "step1Description": "Install performance parts to push builds beyond their starting condition",
-        "step2Title": "Personalize Builds",
-        "step2Description": "Shape cars around your style for collection or resale value",
-        "step3Title": "Optimize Resources",
-        "step3Description": "Spend tuning resources on cars with a clear keep or sell purpose"
+        "step1Title": "Know Vehicle Types",
+        "step1Description": "Distinguish common, rare, and collectible cars to plan repairs and resale",
+        "step2Title": "Track Rarity",
+        "step2Description": "Identify rare vehicles worth collecting or holding for higher value",
+        "step3Title": "Estimate Value",
+        "step3Description": "Judge resale and collection value before investing repair and tuning resources"
       },
       "featured": "Featured & Essential",
-      "all": "All Tuning Guides"
+      "all": "All Cars"
     },
-    "items": {
-      "title": "Car Flipper Cars and Parts",
-      "description": "Detailed guides covering vehicles, car parts, performance upgrades, and customization with usage tips.",
-      "metaTitle": "Car Flipper Cars and Parts - Vehicles & Upgrades Guide",
-      "metaDescription": "Complete Car Flipper item database including vehicles, car parts, performance upgrades, and customization. Learn how to use every car effectively.",
-      "categoryLabel": "CARS & PARTS",
-      "whatIs": "What are Cars and Parts?",
-      "whatIsDescription": "Comprehensive guides for vehicles, car parts, and customization. Learn usage strategies and optimal combinations for repair and resale.",
-      "why": "Why check car and part guides?",
+    "upgrades": {
+      "title": "Car Flipper Upgrades",
+      "description": "Master Car Flipper upgrades covering repairs, performance parts, engine and body upgrades, and paint customization for stronger builds.",
+      "metaTitle": "Car Flipper Upgrades - Parts, Repair & Performance",
+      "metaDescription": "Complete Car Flipper upgrade guides covering repairs, performance parts, engine and body upgrades, and paint customization for stronger and more valuable builds.",
+      "categoryLabel": "CAR UPGRADES",
+      "whatIs": "What are Car Flipper Upgrades?",
+      "whatIsDescription": "The upgrade layer where you repair damage, install performance parts, upgrade engines and bodies, and customize paint to transform cars into stronger, more valuable builds.",
+      "why": "Why upgrade cars?",
       "whySteps": {
-        "step1Title": "Choose the Right Car",
-        "step1Description": "Pick vehicles that match your flip, collection, or racing goal",
-        "step2Title": "Upgrade Smartly",
-        "step2Description": "Install the right parts for your playstyle and progression stage",
-        "step3Title": "Improve Value",
-        "step3Description": "Equip performance parts to raise resale and collection value"
+        "step1Title": "Restore First",
+        "step1Description": "Complete structural and mechanical repairs before investing in expensive parts",
+        "step2Title": "Boost Performance",
+        "step2Description": "Install engine and body upgrades to improve speed, handling, and resale value",
+        "step3Title": "Customize Looks",
+        "step3Description": "Apply paint and cosmetic finishes to personalize builds for collection or sale"
       },
       "featured": "Featured & Essential",
-      "all": "All Cars and Parts"
+      "all": "All Upgrades"
     },
-    "biomes": {
-      "title": "Car Flipper World",
-      "description": "Explore the game world, driving areas, race tracks, and locations for finding and testing vehicles.",
-      "metaTitle": "Car Flipper World - Driving Areas & Exploration",
-      "metaDescription": "Explore the Car Flipper world including driving areas, race tracks, and exploration zones. Find the best places to drive, test, and show off vehicles.",
-      "categoryLabel": "WORLD & DRIVING",
-      "whatIs": "What is the World?",
-      "whatIsDescription": "Guides to the game world, driving areas, race locations, and exploration spots. Learn what to expect and how to use upgraded cars beyond the garage.",
-      "why": "Why explore the world?",
+    "tier": {
+      "title": "Car Flipper Tier List",
+      "description": "Compare Car Flipper vehicles and upgrades with tier lists ranking the best cars for flipping, racing, and collection.",
+      "metaTitle": "Car Flipper Tier List - Best Cars & Upgrades Ranked",
+      "metaDescription": "See Car Flipper tier lists ranking the best vehicles and upgrades for flipping, racing, and collection. Compare options before spending resources.",
+      "categoryLabel": "TIER LISTS",
+      "whatIs": "What is the Car Flipper Tier List?",
+      "whatIsDescription": "Ranked comparisons of Car Flipper vehicles and upgrades, grouping cars by flipping value, racing performance, and collection appeal so you can prioritize resources.",
+      "why": "Why use tier lists?",
       "whySteps": {
-        "step1Title": "Race Friends",
-        "step1Description": "Take upgraded cars to the track and compete with friends",
-        "step2Title": "Test Builds",
-        "step2Description": "Drive finished cars to feel how upgrades perform",
-        "step3Title": "Show Off",
-        "step3Description": "Display personalized builds across the open world"
+        "step1Title": "Rank by Purpose",
+        "step1Description": "See which cars excel at flipping, racing, or collection in clear tiers",
+        "step2Title": "Spend Wisely",
+        "step2Description": "Focus repair and tuning resources on top-tier cars instead of guessing",
+        "step3Title": "Plan Builds",
+        "step3Description": "Match upgrades to each car tier and intended role"
       },
       "featured": "Featured & Essential",
-      "all": "All World Guides"
+      "all": "All Tier Lists"
     },
-    "building": {
+    "workshop": {
       "title": "Car Flipper Workshop",
-      "description": "Master workshop expansion, garage management, profit decisions, and keep-versus-sell choices.",
-      "metaTitle": "Car Flipper Workshop - Garage Expansion & Profit",
-      "metaDescription": "Master Car Flipper workshop expansion with garage management, profit decisions, and keep-versus-sell strategies for building a car empire.",
-      "categoryLabel": "WORKSHOP & PROFIT",
-      "whatIs": "What is the Workshop?",
-      "whatIsDescription": "Guides to workshop expansion, garage management, and profit decisions. Learn to grow from a small garage into a full car business.",
+      "description": "Grow your Car Flipper workshop with expansion, garage capacity, keep-versus-sell decisions, and selling and auction guides.",
+      "metaTitle": "Car Flipper Workshop - Expansion, Garage & Selling",
+      "metaDescription": "Master Car Flipper workshop expansion with garage capacity, keep-versus-sell decisions, and selling and auction strategies to build a profitable car business.",
+      "categoryLabel": "WORKSHOP GUIDES",
+      "whatIs": "What is the Car Flipper Workshop?",
+      "whatIsDescription": "Your garage and business hub, where you manage capacity, expand space, and decide which repaired and tuned cars to keep, sell, or auction for profit.",
       "why": "Why grow the workshop?",
       "whySteps": {
         "step1Title": "Expand Capacity",
-        "step1Description": "Grow your garage to handle more and better vehicles",
-        "step2Title": "Manage Profit",
-        "step2Description": "Balance selling for profit against keeping collection cars",
-        "step3Title": "Build an Empire",
-        "step3Description": "Turn single repairs into a long-term car business"
+        "step1Description": "Upgrade garage space and slots to handle more vehicles at once",
+        "step2Title": "Decide Keep or Sell",
+        "step2Description": "Judge which cars to flip for cash and which to hold as collection pieces",
+        "step3Title": "Maximize Sales",
+        "step3Description": "Time sales and auctions to get the best return on tuned builds"
       },
       "featured": "Featured & Essential",
       "all": "All Workshop Guides"
     },
-    "support": {
-      "title": "Car Flipper Support",
-      "description": "Platform help, redeem troubleshooting, and answers for common Car Flipper questions.",
-      "metaTitle": "Car Flipper Support - Help & Troubleshooting",
-      "metaDescription": "Get support for Car Flipper including platform help, redeem troubleshooting, and answers to common questions about the Roblox experience.",
-      "categoryLabel": "HELP & SUPPORT",
-      "whatIs": "What is Support?",
-      "whatIsDescription": "Help covering platform access, redeem troubleshooting, and common questions. Get answers about codes, platforms, and gameplay basics.",
-      "why": "Why check support?",
+    "achievements": {
+      "title": "Car Flipper Achievements",
+      "description": "Track every Car Flipper achievement and milestone with guides on requirements, rewards, and the fastest ways to complete them.",
+      "metaTitle": "Car Flipper Achievements - Full List & Rewards",
+      "metaDescription": "Complete every Car Flipper achievement with guides on requirements, rewards, and the fastest unlock paths to finish your milestone collection.",
+      "categoryLabel": "ACHIEVEMENTS",
+      "whatIs": "What are Car Flipper Achievements?",
+      "whatIsDescription": "In-game milestones that reward you for repairing, tuning, collecting, and selling cars, tracking your progress from first repair to a complete tuning empire.",
+      "why": "Why chase achievements?",
       "whySteps": {
-        "step1Title": "Fix Redeem Issues",
-        "step1Description": "Resolve code entry problems and find the redeem menu",
-        "step2Title": "Platform Help",
-        "step2Description": "Play Car Flipper on PC, mobile, and console",
-        "step3Title": "Quick Answers",
-        "step3Description": "Get fast answers to common beginner questions"
+        "step1Title": "Earn Rewards",
+        "step1Description": "Unlock milestone rewards that support faster workshop growth",
+        "step2Title": "Track Progress",
+        "step2Description": "Use achievements as a clear roadmap from beginner to expert flipper",
+        "step3Title": "Complete the Collection",
+        "step3Description": "Finish every milestone to fully master the Car Flipper experience"
       },
       "featured": "Featured & Essential",
-      "all": "All Support Articles"
+      "all": "All Achievements"
     }
   }
 }

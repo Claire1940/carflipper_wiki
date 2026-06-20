@@ -1,1 +1,11 @@
-{}
+{
+  "nav": {
+    "codes": "Códigos",
+    "guide": "Guia",
+    "cars": "Carros",
+    "upgrades": "Melhorias",
+    "tier": "Lista de Níveis",
+    "workshop": "Oficina",
+    "achievements": "Conquistas"
+  }
+}

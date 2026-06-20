@@ -1,0 +1,216 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Guía de reparación de Car Flipper: Restauración del taller paso a paso",
+  description: "Domina el arte de comprar, reparar, tunear y vender vehículos en Roblox Car Flipper. Amplía tu taller y maximiza tus ganancias con nuestra guía completa.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/ea580c/fff?text=Car+Flipper+Repair+Guide",
+  date: "2026-06-20",
+  author: "Equipo de la Wiki de Car Flipper",
+  keywords: "car flipper, guía de reparación, restauración de coches, taller, roblox"
+}
+
+<Callout type="info" title="Guía rápida">
+- **Objetivo principal**: Comprar coches dañados baratos, restaurarlos sistemáticamente y revenderlos para obtener el máximo beneficio.
+- **Prioridad de reparación**: Soluciona siempre los problemas mecánicos fundamentales antes de gastar dinero en mejoras estéticas o de rendimiento.
+- **Tienda de tuneos**: Utiliza piezas de rendimiento para mejorar los vehículos que planeas conservar, exhibir o usar en carreras.
+- **Crecimiento del taller**: Reinvierte las primeras ganancias en ampliar la capacidad de tu garaje y desbloquear mejores herramientas.
+</Callout>
+
+<Section icon={Map} title="Introducción a la restauración de vehículos">
+
+Bienvenido a la **guía de reparación definitiva de Car Flipper** para el principal juego de simulación de vehículos de Roblox, Car Flipper [TIENDA DE TUNEOS] de A&B Group. En esta experiencia, los jugadores se ponen en la piel de un ambicioso empresario del sector de la automoción. El ciclo principal de juego gira en torno a la adquisición de vehículos dañados, la realización de reparaciones precisas, la personalización de la carrocería, la mejora del rendimiento y la decisión de mantenerlos en una colección privada o venderlos para financiar la expansión del taller. 
+
+Comprender esta secuencia es vital para establecer un negocio de garaje rentable. Al priorizar las reparaciones sistemáticas y evitar los errores financieros comunes, puedes transformar chatarras oxidadas en obras maestras de la automoción de gran valor.
+
+**Puntos destacados del vídeo:**
+- Aprende a pasar rápidamente de un taller inicial de bajo presupuesto a un imperio de vehículos altamente rentable.
+- Descubre las mecánicas básicas para comprar, reparar y vender coches de manera eficiente.
+- Mira demostraciones de juego reales del ciclo de restauración y las opciones de personalización.
+- Obtén consejos prácticos sobre cómo gestionar tus recursos durante las primeras etapas del juego.
+
+<YouTubeEmbed videoId="YK8IBprhp50" title="¡Pasé de POBRE a RICO en Car Flipper!" />
+
+Para ayudarte a entender cómo debe evolucionar tu enfoque a medida que crece tu negocio, revisa la siguiente comparación.
+
+| Métrica | Ciclo inicial | Ciclo avanzado |
+|---|---|---|
+| **Enfoque principal** | Reparaciones económicas | Personalización y tuneo de alto nivel |
+| **Nivel del vehículo** | Común y Poco común | Raro y Legendario |
+| **Presupuesto de reparación** | Inversión mínima | Fuerte integración de piezas de rendimiento |
+| **Margen de beneficio** | Bajo pero constante | Alto riesgo, retornos masivos |
+| **Público objetivo** | Reventa rápida en el mercado | Colección personal o compradores de gama alta |
+
+<Callout type="success" title="Consejo del editor">
+Durante tus primeras horas, no te apresures a comprar piezas de rendimiento caras. Concéntrate en completar reparaciones básicas en coches de nivel bajo para crear un flujo constante de capital.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Búsqueda e inspección de coches dañados">
+
+Antes de poder comenzar el proceso de restauración, debes adquirir vehículos de proyecto adecuados. El juego ofrece más de 100 vehículos únicos, que van desde coches utilitarios básicos hasta superdeportivos exóticos. Al empezar, tu principal fuente de inventario serán coches baratos y muy dañados que requieran una atención mecánica significativa.
+
+Inspeccionar un vehículo antes de comprarlo es crucial. Observa de cerca el nivel de óxido, los paneles de la carrocería que faltan y el estado del motor. Los vehículos con daños extensos en la carrocería pero con estructuras de chasis intactas suelen ofrecer los mayores márgenes de beneficio, ya que las reparaciones estéticas son relativamente baratas en comparación con las revisiones importantes del motor.
+
+| Nivel del vehículo | Dificultad de reparación | Coste medio | Potencial de beneficio |
+|---|---|---|---|
+| **Inicial / Común** | Baja | Muy bajo | Moderado |
+| **Poco común** | Media | Bajo | Bueno |
+| **Raro** | Alta | Medio | Excelente |
+| **Legendario** | Muy alta | Alto | Sobresaliente |
+
+<Callout type="warning" title="Advertencia crítica">
+Comprar un vehículo dañado de alto nivel demasiado pronto puede estancar tu progreso. Si te quedas sin dinero a mitad de la reparación, te quedarás con una chatarra invendible y sin capital para comprar coches más baratos.
+</Callout>
+
+Para ayudarte a clasificar tus adquisiciones, hemos estructurado los principales tipos de vehículos en función de sus mejores casos de uso en el taller.
+
+<CardGrid cols={3}>
+  <Card title="Coches iniciales">
+    - **Bajo coste de adquisición**
+    - Tiempos de entrega rápidos
+    - Ideal para aprender el ciclo de reparación
+  </Card>
+  <Card title="Reventas lucrativas">
+    - **Costes de reparación equilibrados**
+    - Alta demanda en el mercado
+    - Best para financiar la expansión del taller
+  </Card>
+  <Card title="Colección de ensueño">
+    - **Potencial de rendimiento de gama alta**
+    - Amplias opciones de personalización
+    - Es mejor conservarlos para carreras y exhibiciones
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Sparkles} title="Guía de reparación de Car Flipper: Restauración paso a paso">
+
+Restaurar un vehículo requiere un enfoque sistemático para garantizar que no desperdicies recursos valiosos ni pases por alto defectos ocultos. Sigue esta **guía de reparación de Car Flipper** paso a paso para maximizar la eficiencia de tu taller y asegurarte de que cada vehículo salga de tu box en perfectas condiciones.
+
+<Steps>
+  <Step num="1" title="Adquirir el vehículo">
+    Compra un coche dañado en el mercado o recupera un vehículo de proyecto de tu inventario. Llévalo a un box de reparación libre en tu taller para comenzar la inspección.
+  </Step>
+  <Step num="2" title="Inspeccionar y desmontar">
+    Examina el vehículo para identificar componentes rotos, zonas oxidadas y piezas faltantes. Retira los paneles de la carrocería dañados y las piezas mecánicas desgastadas para preparar el chasis.
+  </Step>
+  <Step num="3" title="Realizar reparaciones mecánicas">
+    Ocúpate primero del motor, la suspensión y la transmisión. Reemplaza las piezas rotas por componentes nuevos. Un motor funcional es la base de un vehículo de gran valor.
+  </Step>
+  <Step num="4" title="Chapa y pintura">
+    Repara los daños estructurales, elimina el óxido e instala nuevos paneles de carrocería. Aplica una capa de pintura fresca y personaliza el estilo exterior para mejorar el atractivo visual del vehículo.
+  </Step>
+  <Step num="5" title="Tuneo y mejoras">
+    Lleva el vehículo a la tienda de tuneos. Instala piezas de rendimiento y ajusta el motor para aumentar los caballos de fuerza, el manejo y la calificación de rendimiento general.
+  </Step>
+  <Step num="6" title="Evaluación final">
+    Revisa el coche terminado. Decide si vas a publicar el vehículo restaurado en el mercado para obtener un beneficio masivo o si lo añadirás a tu colección permanente.
+  </Step>
+</Steps>
+
+Para mantener tu taller funcionando sin problemas, utiliza el siguiente sistema de prioridades al gestionar tus recursos durante un proyecto de restauración.
+
+| Fase de reparación | Acción requerida | Nivel de coste | Impacto en el valor |
+|---|---|---|---|
+| **Fase 1: Mecánica** | Motor, transmisión, suspensión | Alto | Esencial |
+| **Fase 2: Estructural** | Eliminación de óxido, reemplazo de paneles | Medio | Alto |
+| **Fase 3: Estética** | Pintura, llantas, diseño interior | Bajo | Medio |
+| **Fase 4: Tuneo** | Piezas de rendimiento, ajuste de la ECU | Muy alto | Opcional |
+
+<Callout type="tip" title="Hábito de reparación profesional">
+Completa siempre la eliminación del óxido antes de aplicar la pintura. Pintar sobre el óxido reduce la puntuación de calidad final del vehículo, disminuyendo su valor máximo de reventa.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Mejoras y personalización en la tienda de tuneos">
+
+La tienda de tuneos es donde transformas un coche restaurado estándar en una máquina de alto rendimiento. Con cientos de opciones de personalización disponibles, puedes personalizar cada aspecto de tu vehículo, desde kits de carrocería estéticos hasta turbocompresores de gama alta y kits de suspensión.
+
+El tuneo debe tratarse como una inversión. Si estás reparando un coche puramente para obtener un beneficio rápido, mantén el tuneo al mínimo, ya que los compradores no siempre pagarán un extra por piezas de rendimiento de primer nivel en un chasis inicial. Sin embargo, si estás construyendo un vehículo para carreras o para tu colección personal, se recomienda encarecidamente maximizar el rendimiento.
+
+| Categoría de mejora | Beneficio principal | Coste | Prioridad para reventas |
+|---|---|---|---|
+| **Bloques de motor** | Incremento masivo de caballos de fuerza | Muy alto | Baja |
+| **Kits de suspensión** | Manejo mejorado y control de derrape | Medio | Media |
+| **Kits de carrocería** | Calificación visual y estilo mejorados | Bajo | Alta |
+| **Neumáticos y llantas** | Mejor agarre y aspecto personalizado | Medio | Media |
+| **Turbocompresores** | Aumento extremo de la aceleración | Alto | Baja |
+
+<Callout type="info" title="Estrategia de tuneo">
+Las mejoras visuales como los kits de carrocería y la pintura personalizada ofrecen el mayor retorno de la inversión (ROI) para los coches de nivel bajo. Reserva las costosas mejoras de motor para vehículos raros y legendarios.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Expansión del taller y optimización de beneficios">
+
+Para construir un verdadero imperio automovilístico, debes expandir continuamente tu taller. Un garaje más grande te permite trabajar en varios vehículos simultáneamente, almacenar una colección más grande y desbloquear herramientas avanzadas de diagnóstico y reparación que aceleran el proceso de restauración.
+
+Reinvertir tus ganancias sabiamente es la clave para el éxito a largo plazo. Equilibra tus gastos entre comprar mejores coches de proyecto y mejorar tus instalaciones.
+
+| Nivel del taller | Ranuras activas | Herramientas desbloqueadas | Coste de expansión |
+|---|---|---|---|
+| **Nivel 1: Garaje inicial** | 1 | Herramientas de mano básicas | Gratis |
+| **Nivel 2: Taller local** | 2 | Escáner de diagnóstico, elevador básico | Bajo |
+| **Nivel 3: Box profesional** | 3 | Cabina de pintura, soporte de motor avanzado | Medio |
+| **Nivel 4: Imperio del tuneo** | 5 | Banco de potencia (Dyno), estación de fabricación a medida | Alto |
+
+<Callout type="success" title="Hito de progresión">
+Desbloquear la cabina de pintura debería ser tu primer gran objetivo de expansión. Hacer tus propios trabajos de pintura reduce drásticamente los costes de reparación estética, aumentando instantáneamente tus márgenes de beneficio.
+</Callout>
+
+Utiliza la lista de verificación a continuación para realizar un seguimiento del crecimiento de tu taller y asegurarte de que estás listo para proyectos de restauración de alto nivel.
+
+<Checklist
+  id="workshop-progression"
+  title="Hitos de expansión del taller:"
+  items={[
+    "Desbloquear un segundo box de reparación activo para trabajar en varios proyectos simultáneamente.",
+    "Comprar la cabina de pintura para eliminar las tarifas estéticas de terceros.",
+    "Mejorar al escáner de diagnóstico para identificar instantáneamente defectos ocultos del motor.",
+    "Adquirir el banco de potencia (Dyno Tuner) para maximizar las ganancias de rendimiento de la tienda de tuneos.",
+    "Ampliar el almacenamiento de tu garaje privado para albergar hasta 10 vehículos de exhibición."
+  ]}
+/>
+
+</Section>
+
+<Section icon={Shield} title="Preguntas frecuentes">
+
+Utiliza esta sección de preguntas frecuentes para resolver rápidamente los problemas comunes que encuentres durante la restauración de vehículos y la gestión de tu taller.
+
+<FAQ items={[
+  {
+    question: "¿Cuál es la forma más rápida de ganar dinero en Car Flipper?",
+    answer: "La forma más rápida es comprar vehículos comunes y baratos con daños estéticos, limpiar rápidamente el óxido, reemplazar los paneles básicos de la carrocería, aplicar pintura fresca y revenderlos de inmediato. Evita el costoso tuneo del motor en los coches iniciales."
+  },
+  {
+    question: "¿Debo reparar cada pieza rota antes de vender un coche?",
+    answer: "Sí. Vender un vehículo con piezas rotas o faltantes penaliza gravemente tu margen de beneficio final. Consulta siempre una guía completa de reparación de Car Flipper para asegurarte de haber revisado el motor, la suspensión y la carrocería antes de ponerlo a la venta."
+  },
+  {
+    question: "¿Cuál es la diferencia entre reparar y tunear?",
+    answer: "Reparar restaura un vehículo a su estado original de fábrica arreglando las piezas rotas y eliminando el óxido. Tunear implica instalar piezas de alto rendimiento y cosméticos personalizados para mejorar el vehículo más allá de sus especificaciones de fábrica."
+  },
+  {
+    question: "¿Puedo competir con los coches que restauro en mi taller?",
+    answer: "Sí. Puedes llevar cualquier vehículo de tu colección personal al enorme mundo para explorar, presumir de tu estilo personalizado y competir contra tus amigos."
+  }
+]} />
+
+<Callout type="info" title="¿Necesitas más ayuda?">
+Únete a la comunidad oficial de A&B Group en Roblox para mantenerte al día con los últimos parches, lanzamientos de códigos y vehículos recién añadidos.
+</Callout>
+
+</Section>
