@@ -14,7 +14,7 @@
   "common": {
     "home": "Home",
     "more": "More",
-    "playNow": "Play on Steam",
+    "playNow": "Play on Roblox",
     "switchLanguage": "Switch Language",
     "switchTheme": "Switch Theme",
     "lightMode": "Light Mode",
@@ -52,696 +52,405 @@
     }
   },
   "gameFeature": {
-    "title": "Lucid Blocks Gameplay",
-    "description": "Explore surreal biomes, fuse items with Apotheosis, and survive strange creatures in this dreamlike voxel sandbox on Steam."
+    "title": "Car Flipper Gameplay",
+    "description": "Buy damaged cars, repair them in your garage, customize and tune parts, upgrade performance, and flip vehicles for profit in this Roblox car simulation."
   },
   "tools": {
-    "title": "Lucid Blocks",
-    "titleHighlight": "Resources",
-    "subtitle": "Everything you need to explore, craft, and survive in Lucid Blocks",
+    "title": "Car Flipper",
+    "titleHighlight": "Guides",
+    "subtitle": "Everything you need to repair, customize, tune, and flip cars in Car Flipper.",
     "cards": [
       {
-        "icon": "BookOpen",
-        "title": "Beginner Guide",
-        "description": "First steps, exploration, and early progression"
+        "title": "Car Flipper Codes",
+        "description": "Active codes, redeem steps, and reward types"
       },
       {
-        "icon": "Sparkles",
-        "title": "Apotheosis Crafting",
-        "description": "Freeform fusion system and early recipes"
+        "title": "Car Flipper Official Links",
+        "description": "Official Roblox page, A&B Group, and game info"
       },
       {
-        "icon": "Hammer",
-        "title": "Tools and Weapons",
-        "description": "Frost Pick, Azrael, Hookshot, and more"
+        "title": "Car Flipper Beginner Guide",
+        "description": "First car, repairs, and your first profitable flip"
       },
       {
-        "icon": "Package",
-        "title": "Storage and Inventory",
-        "description": "Cache Cubes, Cabinets, and Qualia storage"
+        "title": "Car Flipper Tuning Shop",
+        "description": "Performance parts and upgrade priorities"
       },
       {
-        "icon": "Home",
-        "title": "Qualia and Base Building",
-        "description": "Personal Qualia and home base setup"
+        "title": "Car Flipper Vehicle Tier List",
+        "description": "Best cars to keep, upgrade, or sell"
       },
       {
-        "icon": "Eye",
-        "title": "World Regions",
-        "description": "Fog Meadow, Essence Morass, and more"
+        "title": "Car Flipper Upgrades",
+        "description": "Parts, repairs, and performance upgrade guide"
       },
       {
-        "icon": "AlertTriangle",
-        "title": "Creatures and Enemies",
-        "description": "Manikins, spiders, and how to survive"
+        "title": "Car Flipper Workshop",
+        "description": "Expansion, profit, and keep-or-sell decisions"
       },
       {
-        "icon": "ArrowRight",
-        "title": "Mobility Gear",
-        "description": "Hookshot, Glider Glove, Bee Glider"
-      },
-      {
-        "icon": "TrendingUp",
-        "title": "Farming and Growth",
-        "description": "Seed progression and material farming"
-      },
-      {
-        "icon": "Star",
-        "title": "Best Early Unlocks",
-        "description": "Priority upgrades for the first hour"
-      },
-      {
-        "icon": "ClipboardCheck",
-        "title": "Achievement Tracker",
-        "description": "All 19 Steam achievements and conditions"
-      },
-      {
-        "icon": "MessageCircle",
-        "title": "Singleplayer FAQ",
-        "description": "Platform, price, co-op, and language questions"
-      },
-      {
-        "icon": "Gamepad2",
-        "title": "Steam Deck and Controller",
-        "description": "Proton 9.0.4 setup and controller tips"
-      },
-      {
-        "icon": "Settings",
-        "title": "Settings and Accessibility",
-        "description": "Hide hands, Vulkan, and display options"
-      },
-      {
-        "icon": "Clock",
-        "title": "Updates and Patch Notes",
-        "description": "Recent fixes and roadmap notes"
-      },
-      {
-        "icon": "Shield",
-        "title": "Crash Fix",
-        "description": "Vulkan check, logs path, and bug reporting"
+        "title": "Car Flipper Racing",
+        "description": "Racing friends and world exploration"
       }
     ]
   },
   "modules": {
-    "lucidBlocksBeginnerGuide": {
-      "title": "Lucid Blocks Beginner Guide",
-      "displayType": "steps",
-      "intro": "Start by learning how exploration, fusion, and progression connect. Lucid Blocks rewards experimentation, so early progress comes from gathering unusual materials, testing combinations, and unlocking your personal Qualia.",
+    "carFlipperCodes": {
+      "title": "Car Flipper Codes and Redeem Guide",
+      "subtitle": "Redeem Car Flipper codes for free containers and car parts that help you repair, upgrade, and flip vehicles faster.",
+      "intro": "Car Flipper codes are entered after the tutorial through the gift icon at the top of the screen. Rewards focus on containers and car parts, which help you restore damaged cars and build your garage early.",
+      "activeLabel": "Active Codes",
+      "expiredLabel": "Expired Codes",
+      "stepsLabel": "How to Redeem",
+      "rewardLabel": "Reward Types",
+      "activeCodes": [
+        {
+          "code": "3KLIKES",
+          "reward": "1 Rare Container, 1 Uncommon Container, and 1 Common Container",
+          "rewardType": "Containers"
+        },
+        {
+          "code": "RELEASE",
+          "reward": "100 Uncommon Car Parts, 500 Common Car Parts, 1 Rare Container, 1 Uncommon Container, and 1 Common Container",
+          "rewardType": "Car Parts and Containers"
+        }
+      ],
+      "expiredCodes": [
+        {
+          "code": "1KLIKES",
+          "reward": "1 Rare Container, 1 Uncommon Container, and 1 Common Container",
+          "rewardType": "Containers"
+        }
+      ],
+      "redeemSteps": [
+        {
+          "title": "Launch the official Roblox game",
+          "description": "Open Car Flipper from the official Roblox experience page instead of script pages, fake mirrors, or unrelated car-flipping results."
+        },
+        {
+          "title": "Finish the tutorial",
+          "description": "The code entry option appears after the early tutorial flow, so complete the starter steps first."
+        },
+        {
+          "title": "Use the gift icon",
+          "description": "Click or tap the gift icon at the top of the screen, enter the code in the code box, and press Enter to claim the reward."
+        }
+      ],
+      "rewardTypes": [
+        {
+          "title": "Containers",
+          "description": "Containers provide useful garage rewards and help new players build momentum without waiting as long for early resources."
+        },
+        {
+          "title": "Car Parts",
+          "description": "Car parts support the core repair and upgrade loop, especially when restoring damaged vehicles for collection or resale."
+        }
+      ]
+    },
+    "carFlipperOfficialLinks": {
+      "title": "Car Flipper Official Links and Game Info",
+      "subtitle": "Use the official Roblox page and A&B Group channels to play the right experience and follow real updates.",
+      "intro": "Car Flipper is a Roblox vehicle simulation game by A&B Group. The current Roblox title is Car Flipper [TUNING SHOP], and the main loop is about buying damaged cars, repairing them, customizing them, upgrading performance, then keeping or selling them for profit.",
+      "linksLabel": "Official Channels",
+      "infoLabel": "Game Info",
+      "links": [
+        {
+          "title": "Official Roblox Game",
+          "label": "Play Car Flipper",
+          "url": "https://www.roblox.com/games/136533956395153/Car-Flipper",
+          "description": "The official Roblox experience page for Car Flipper [TUNING SHOP] by A&B Group."
+        },
+        {
+          "title": "Developer Group",
+          "label": "A&B Group",
+          "url": "https://www.roblox.com/communities/11553831/A-B-Group",
+          "description": "The Roblox community page for the developer behind Car Flipper."
+        },
+        {
+          "title": "Official Discord",
+          "label": "A&B Group Server",
+          "url": "https://discord.com/invite/Hh99xVFyRV",
+          "description": "The community server used for updates, announcements, and Car Flipper code tracking."
+        }
+      ],
+      "info": [
+        {
+          "title": "Game Title",
+          "label": "Car Flipper [TUNING SHOP]",
+          "description": "The Roblox listing uses the Tuning Shop title tag, making it the best match when searching for the latest version."
+        },
+        {
+          "title": "Core Gameplay",
+          "label": "Repair, customize, upgrade, sell",
+          "description": "Start with broken-down vehicles, buy damaged cars, repair them, customize them, and decide whether to keep or sell them for profit."
+        },
+        {
+          "title": "Vehicle Collection",
+          "label": "100+ unique vehicles",
+          "description": "The game page highlights more than 100 unique vehicles and hundreds of customization options."
+        },
+        {
+          "title": "Progression Goals",
+          "label": "Garage to car empire",
+          "description": "Players can expand their workshop, personalize cars, explore a large world, and race friends."
+        },
+        {
+          "title": "Safety Check",
+          "label": "Open the right game",
+          "description": "Use the official Roblox page when searching, because Car Flipper can be mixed up with real-world car-flipping guides and unrelated vehicle games."
+        }
+      ]
+    },
+    "carFlipperBeginnerGuide": {
+      "title": "Car Flipper Beginner Guide",
+      "subtitle": "Learn the basic path from your first rusty wreck to a profitable vehicle flip.",
+      "intro": "Car Flipper is built around a simple garage loop: start with a broken vehicle, repair it, customize it, improve it, then choose between collection value and resale profit. New players should focus on learning this loop before chasing rare vehicles or expensive upgrades.",
       "steps": [
         {
-          "title": "Explore Before You Commit",
-          "description": "Walk outward, mine common blocks, and keep any strange drops you find. Early progress is less about fixed quests and more about discovering what materials can become."
+          "title": "Start with a broken-down vehicle",
+          "description": "Begin your run by working on a damaged car. This teaches the repair loop before you spend heavily on new vehicles.",
+          "playerGoal": "Understand the basic garage flow."
         },
         {
-          "title": "Unlock Your Personal Qualia Early",
-          "description": "Your personal Qualia is one of the most important early milestones. It gives you a reliable place to regroup and build around."
+          "title": "Buy damaged cars",
+          "description": "Look for damaged vehicles that can be restored and improved. The game centers on turning rusty wrecks into better cars.",
+          "playerGoal": "Get cars that can become profitable flips."
         },
         {
-          "title": "Use Osmium for Fast Early Progress",
-          "description": "Osmium is one of the most useful early materials. A popular early route is combining Osmium with sticks to make a Frost Pick for fast mining."
+          "title": "Repair the car first",
+          "description": "Repair work should come before style upgrades, because the vehicle needs to become functional before it can become valuable.",
+          "playerGoal": "Move the car from wreck to usable vehicle."
         },
         {
-          "title": "Record Good Fusions",
-          "description": "Keep track of successful combinations in your journal. Lucid Blocks has many possible fusion paths, so writing down useful results saves a lot of time."
+          "title": "Customize the vehicle",
+          "description": "Use the customization options to shape the car's look and make each build feel different.",
+          "playerGoal": "Create a car that matches your garage style."
+        },
+        {
+          "title": "Install upgrades and performance parts",
+          "description": "Upgrade performance after the repair phase so the car improves beyond its starting condition.",
+          "playerGoal": "Turn a basic restored car into a stronger build."
+        },
+        {
+          "title": "Decide whether to keep or sell",
+          "description": "After restoration and customization, choose whether the car belongs in your collection or should be sold for profit.",
+          "playerGoal": "Balance collection progress with profit."
+        },
+        {
+          "title": "Expand your workshop",
+          "description": "Use your earnings and resources to grow the workshop and handle better vehicles over time.",
+          "playerGoal": "Build from a small garage into a larger car business."
+        },
+        {
+          "title": "Explore and race friends",
+          "description": "Beyond the garage, the game includes a large world to explore and racing with friends as part of the vehicle-focused loop.",
+          "playerGoal": "Use your finished cars outside the workshop."
         }
-      ],
-      "quickTips": [
-        "Apotheosis does not require a fixed recipe list.",
-        "Infinite world generation means moving higher or deeper can reveal completely different materials.",
-        "Movement tools and utility gear become a major quality-of-life boost once you start unlocking them.",
-        "Getting lost early is normal, but useful tools, storage, and movement options snowball fast once your first good fusions start working."
       ]
     },
-    "lucidBlocksApotheosisCrafting": {
-      "title": "Lucid Blocks Apotheosis Crafting",
-      "displayType": "cards",
-      "intro": "Apotheosis is the game's unrestricted fusion system. Instead of memorizing a traditional recipe book, you combine materials, watch the result, and build your own crafting knowledge over time.",
-      "cards": [
-        {
-          "name": "Freeform Fusion",
-          "description": "Apotheosis lets you fuse together different items without needing to follow a fixed recipe list."
-        },
-        {
-          "name": "Multiple Useful Outcomes",
-          "description": "Different materials often push toward certain results. Community discoveries show that similar inputs can still lead to practical tools, storage, or combat upgrades."
-        },
-        {
-          "name": "Journal-First Crafting",
-          "description": "The best way to learn Apotheosis is to track your successful combinations. Your journal quickly becomes your own crafting reference."
-        },
-        {
-          "name": "Community-Tested Early Fusions",
-          "description": "Popular early examples include Osmium plus Stick for a Frost Pick, Stick plus Tungsten Appendage for Azrael, and Azrael plus Magnetite for the Tendril Rapier."
-        }
-      ],
-      "milestones": [
-        "Fuse an item",
-        "Fuse a vermin",
-        "Fuse a divine artifact"
-      ]
-    },
-    "lucidBlocksToolsAndWeapons": {
-      "title": "Lucid Blocks Tools and Weapons",
-      "displayType": "itemCards",
-      "intro": "Lucid Blocks mixes official utility gear with community-discovered early weapons. The best setup is usually a blend of fast mining, safe traversal, and one dependable combat option.",
+    "carFlipperTuningShop": {
+      "title": "Car Flipper Tuning Shop Guide",
+      "subtitle": "Use the Tuning Shop as the upgrade layer after repairs, customization, and basic garage progress.",
+      "intro": "The Tuning Shop update sits naturally inside Car Flipper's restore-and-upgrade loop. Once a car is repaired, tuning and performance parts help turn it from a simple restored vehicle into a more personal, higher-impact build.",
       "items": [
         {
-          "name": "Frost Pick",
-          "type": "Mining Tool",
-          "description": "A fast and affordable early pick made from Osmium and Stick. Players use it to speed up early material gathering."
+          "title": "What the Tuning Shop means",
+          "content": "The current Roblox title is Car Flipper [TUNING SHOP], and the game description highlights upgrading vehicles, installing performance parts, and creating cars that match your style."
         },
         {
-          "name": "Azrael",
-          "type": "Starter Weapon",
-          "description": "A practical early weapon route crafted from Stick and Tungsten Appendage."
+          "title": "Where tuning fits in the loop",
+          "content": "Tuning works best after the car has been repaired. First restore the damaged vehicle, then use customization and performance upgrades to improve the final build."
         },
         {
-          "name": "Tendril Rapier",
-          "type": "Upgraded Weapon",
-          "description": "A stronger follow-up made by combining Azrael with Magnetite. It is one of the most useful early-mid combat paths shared by players."
+          "title": "Performance upgrade focus",
+          "content": "The game highlights performance upgrades as a core feature, so tuning is the bridge between a basic restored car and a stronger finished vehicle."
         },
         {
-          "name": "Hookshot",
-          "type": "Mobility Tool",
-          "description": "An official traversal item that greatly improves movement and vertical exploration."
+          "title": "Style customization focus",
+          "content": "Car Flipper also emphasizes personalization, so tuning is not only about speed or performance. Players can shape cars around their preferred look and garage identity."
         },
         {
-          "name": "Bee Glider",
-          "type": "Mobility Tool",
-          "description": "An official movement item that helps cover space more safely and efficiently."
+          "title": "Keep or sell decision",
+          "content": "After tuning, decide whether the upgraded car is worth keeping in your collection or selling for profit. This decision is part of the main Car Flipper loop."
         },
         {
-          "name": "Ball Wand",
-          "type": "Utility Weapon",
-          "description": "An official ranged utility item that expands your combat and puzzle options."
+          "title": "Workshop progression",
+          "content": "As your workshop grows, tuning becomes more useful because better cars and more customization options give each build more room to improve."
         },
         {
-          "name": "Scuba Diving Gear",
-          "type": "Traversal Gear",
-          "description": "An official utility item for reaching areas that would otherwise slow down exploration."
+          "title": "Best early tuning habit",
+          "content": "Do not spend every resource immediately. Repair the car, check the upgrade options, then tune the parts that support your current goal: resale profit, collection value, or racing with friends."
         },
         {
-          "name": "Explosives",
-          "type": "Utility Damage",
-          "description": "Officially highlighted as part of the core toolset and useful for breaking through threats or obstacles."
+          "title": "Tuning Shop checklist",
+          "content": "Before finishing a car, check repair condition, customization choices, performance parts, upgrade value, and whether the car should be sold or kept."
         }
       ]
     },
-    "lucidBlocksStorageAndInventory": {
-      "title": "Lucid Blocks Storage and Inventory",
-      "displayType": "solutionCards",
-      "intro": "Inventory pressure starts early in Lucid Blocks, so building storage should be one of your first goals. Several real player-tested solutions already stand out.",
-      "solutions": [
+    "carFlipperTierList": {
+      "title": "Car Flipper Best Cars and Vehicle Tier List",
+      "subtitle": "Sort the 100+ unique vehicles by how you want to use them: profit flipping, collecting, customization, or racing.",
+      "intro": "Car Flipper is built around buying damaged cars, repairing them, customizing them, and then choosing whether to keep them or sell them for profit. Since the game offers 100+ unique vehicles and hundreds of customization options, the most useful tier list is based on vehicle purpose: resale value, long-term collection, tuning potential, and racing use.",
+      "scopeLabel": "Vehicle Scope",
+      "bestForLabel": "Best For",
+      "actionLabel": "Player Action",
+      "tiers": [
         {
-          "name": "Cache Cube",
-          "role": "Chest-Like Storage",
-          "description": "Cache Cubes are one of the earliest practical storage answers and are treated by players as the game's main chest-style container."
+          "tier": "S",
+          "label": "Dream Collection Cars",
+          "vehicleScope": "Finished vehicles you want to keep after repair, customization, and performance upgrades",
+          "bestFor": ["collection", "personal style", "racing friends", "long-term ownership"],
+          "playerAction": "Keep the car, personalize it heavily, install performance parts, and use it beyond the garage."
         },
         {
-          "name": "Cabinet",
-          "role": "Simple Base Storage",
-          "description": "Cabinets are another confirmed storage option. A shared early recipe uses 1 Cut Wood and 1 String."
+          "tier": "A",
+          "label": "Profit Flip Cars",
+          "vehicleScope": "Damaged vehicles that can be repaired, customized, and sold as part of the core flip loop",
+          "bestFor": ["earning profit", "workshop growth", "repeat flipping"],
+          "playerAction": "Buy damaged cars, restore them, improve presentation, and sell them when the profit goal is met."
         },
         {
-          "name": "Personal Qualia",
-          "role": "Long-Term Storage Hub",
-          "description": "Once unlocked, your personal Qualia becomes a natural place to organize materials, craft in peace, and expand your base setup."
+          "tier": "B",
+          "label": "Upgrade Test Cars",
+          "vehicleScope": "Cars used to compare performance parts, customization styles, and driving feel",
+          "bestFor": ["learning upgrades", "testing performance", "tuning practice"],
+          "playerAction": "Use these cars to understand how upgrades, parts, and personalization affect the finished vehicle."
         },
         {
-          "name": "Journal Tracking",
-          "role": "Inventory Efficiency",
-          "description": "Recording useful combinations in your journal reduces wasted materials and makes inventory management much easier."
+          "tier": "C",
+          "label": "Starter Repair Cars",
+          "vehicleScope": "Early broken-down vehicles used to learn the repair-to-sale loop",
+          "bestFor": ["beginners", "first repairs", "basic flipping practice"],
+          "playerAction": "Focus on restoring, customizing, and selling before spending too much on long-term upgrades."
+        },
+        {
+          "tier": "Style",
+          "label": "Showcase Builds",
+          "vehicleScope": "Any vehicle chosen mainly for its visual identity and customization potential",
+          "bestFor": ["personalized cars", "garage display", "creative builds"],
+          "playerAction": "Use hundreds of customization options to create cars that match your style."
         }
-      ],
-      "managementTips": [
-        "Prioritize one dependable storage option before hoarding rare drops.",
-        "Build around your personal Qualia once it becomes available.",
-        "Keep crafting materials, combat tools, and movement gear separated so upgrades are easier to plan.",
-        "Use your journal as part of inventory management, not just crafting discovery."
       ]
     },
-    "lucidBlocksQualiaAndBaseBuilding": {
-      "title": "Lucid Blocks Qualia and Base Building",
-      "displayType": "cards",
-      "intro": "Qualia is one of the most important progression milestones in Lucid Blocks. It gives you a personal space to regroup, store materials, and gradually turn exploration progress into a real home base.",
+    "carFlipperUpgrades": {
+      "title": "Car Flipper Parts and Performance Upgrades",
+      "subtitle": "Understand how repairs, customization, and performance parts fit into the flipping loop before you sell, collect, or race a car.",
+      "intro": "Car Flipper lets players restore damaged vehicles, customize them, install performance parts, and personalize cars before deciding whether to sell or keep them. The upgrade path works best when each car has a clear purpose: quick resale, collection display, or upgraded driving.",
+      "colCategory": "Category",
+      "colRole": "Role",
+      "colBestFor": "Best Used For",
+      "colPriority": "Recommended Priority",
+      "rows": [
+        {
+          "category": "Restore and Repair",
+          "role": "Turns a broken-down vehicle into a usable project car",
+          "bestUsedFor": "Every flip, especially early progression",
+          "impact": "Repair is the foundation of the buy-damaged, fix, and sell-for-profit loop.",
+          "recommendedPriority": "Start here before spending on style or performance."
+        },
+        {
+          "category": "Customization Options",
+          "role": "Changes how a car looks and feels as a finished build",
+          "bestUsedFor": "Collection cars, resale presentation, and personal builds",
+          "impact": "Customization helps every car become a more complete finished vehicle.",
+          "recommendedPriority": "Use after core repair work is complete."
+        },
+        {
+          "category": "Performance Parts",
+          "role": "Improves the upgraded driving side of a vehicle",
+          "bestUsedFor": "Cars you plan to keep, race, or drive around the world",
+          "impact": "Performance upgrades connect the workshop loop with racing and exploration.",
+          "recommendedPriority": "Prioritize on long-term cars instead of every quick resale car."
+        },
+        {
+          "category": "Personalization",
+          "role": "Makes cars match your preferred style",
+          "bestUsedFor": "Dream vehicles, collection builds, and showcase cars",
+          "impact": "Personalization turns repaired vehicles into signature builds instead of generic flips.",
+          "recommendedPriority": "Best for cars you are keeping."
+        },
+        {
+          "category": "Upgrade Performance",
+          "role": "Prepares vehicles for use beyond simple selling",
+          "bestUsedFor": "Racing friends and exploring the massive world",
+          "impact": "Upgraded cars become useful for the social and driving parts of the game.",
+          "recommendedPriority": "Use when a car has a driving purpose, not only a resale purpose."
+        }
+      ]
+    },
+    "carFlipperWorkshop": {
+      "title": "Car Flipper Workshop Expansion and Profit Guide",
+      "subtitle": "Grow from repairing broken-down cars to building a full car empire through smarter sell, keep, and upgrade decisions.",
+      "intro": "The main progression loop in Car Flipper starts with damaged vehicles and grows into a workshop-centered car business. Buy cars, repair them, customize them, sell for profit, keep favorites in your collection, and expand your workshop as your garage becomes more ambitious.",
+      "goalLabel": "Goal",
+      "decisionLabel": "Best Decision",
       "cards": [
         {
-          "name": "Personal Qualia",
-          "description": "Unlocking a Qualia is an early milestone that gives you a more reliable place to return to while exploring the wider world."
+          "title": "Start With Damaged Cars",
+          "description": "Buy broken-down vehicles and treat them as restoration projects.",
+          "goal": "Create your first repair-to-sale loop.",
+          "bestDecision": "Choose cars you can finish quickly before investing deeply in collection builds."
         },
         {
-          "name": "Storage-First Building",
-          "description": "Many players start using their Qualia as a storage hub before turning it into a larger base with organized crafting and building space."
+          "title": "Repair Before You Customize",
+          "description": "Restoration is the first step before style, parts, or resale planning.",
+          "goal": "Turn the car from a wreck into a finished vehicle.",
+          "bestDecision": "Complete the basic repair path before adding extra upgrades."
         },
         {
-          "name": "Creative Home Building",
-          "description": "Lucid Blocks supports creative building, and players are already using Qualia spaces to make houses and personalized layouts."
+          "title": "Customize for Better Finished Builds",
+          "description": "Use customization to make each repaired vehicle feel complete.",
+          "goal": "Create cars that can become bestsellers or personal collection pieces.",
+          "bestDecision": "Spend more customization effort on cars with a clear sell or keep purpose."
         },
         {
-          "name": "Progression Hub",
-          "description": "A strong base helps you separate exploration loot, crafting materials, seeds, tools, and mobility gear so your next upgrades are easier to plan."
-        }
-      ],
-      "highlights": [
-        "Enter a qualia",
-        "Store materials safely",
-        "Expand from utility to decoration",
-        "Use base space to support crafting and farming"
-      ]
-    },
-    "lucidBlocksWorldRegions": {
-      "title": "Lucid Blocks World Regions",
-      "displayType": "regionCards",
-      "intro": "Lucid Blocks uses infinite world generation, so players keep discovering new environments and structures. A few named places are already showing up in achievements and community discussions.",
-      "regions": [
-        {
-          "name": "Fog Meadow",
-          "type": "Community-Noted Area",
-          "description": "Fog Meadow is already known among players as a tense area associated with hidden threats and dangerous encounters."
+          "title": "Sell for Profit",
+          "description": "Finished cars can be sold as part of the core flipping path.",
+          "goal": "Use successful flips to fund workshop growth and future cars.",
+          "bestDecision": "Sell cars that are mainly built for profit instead of long-term keepers."
         },
         {
-          "name": "Tiamana Leyline",
-          "type": "Discovery Landmark",
-          "description": "The tiamana leyline is important enough to have its own achievement milestone, making it one of the clearest named world discoveries so far."
+          "title": "Keep Collection Cars",
+          "description": "Some vehicles are worth keeping as dream cars, showcase builds, or racing cars.",
+          "goal": "Build a personal vehicle collection, not just a resale business.",
+          "bestDecision": "Keep cars that you want to drive, personalize, or race with friends."
         },
         {
-          "name": "Clonaqualia",
-          "type": "Build Space",
-          "description": "Players are already using Clonaqualia as a place to build houses, store materials, and experiment with more permanent layouts."
-        },
-        {
-          "name": "Essence Morass",
-          "type": "Farming Area",
-          "description": "Essence Morass is being shared by players as a useful farming location, especially for fighting slimes and gaining experience."
+          "title": "Expand Your Workshop",
+          "description": "Workshop expansion supports the bigger goal of building a car empire from scratch.",
+          "goal": "Move from single repairs to a stronger long-term garage operation.",
+          "bestDecision": "Use profit from sold cars to support broader workshop progression."
         }
       ]
     },
-    "lucidBlocksCreaturesAndEnemies": {
-      "title": "Lucid Blocks Creatures and Enemies",
-      "displayType": "creatureCards",
-      "intro": "Lucid Blocks mixes surreal creatures with real danger. Official descriptions and community posts point to a world full of strange life, hostile threats, and a few standout encounters players remember quickly.",
-      "creatures": [
-        {
-          "name": "Manikins",
-          "role": "Hostile Enemy",
-          "description": "Manikins are one of the officially named foes in the world and part of the game's surreal threat roster."
-        },
-        {
-          "name": "Squishy Gels",
-          "role": "Hostile Enemy",
-          "description": "Squishy gels are another officially named enemy type and help define the game's strange biological style."
-        },
-        {
-          "name": "Higher-Dimensional Beings",
-          "role": "Hostile Enemy",
-          "description": "These beings are presented as part of the world's more abstract and unsettling enemy lineup."
-        },
-        {
-          "name": "Colossal Spiders",
-          "role": "Major Threat",
-          "description": "Spiders are one of the most immediately feared enemies in community discussions and are clearly a memorable danger."
-        },
-        {
-          "name": "Bubblebear",
-          "role": "Named Creature",
-          "description": "Bubblebear is notable enough to have its own achievement, which makes it one of the clearest named creature encounters in the game."
-        },
-        {
-          "name": "Cute Vermin",
-          "role": "Interactable Creature",
-          "description": "Vermin are not only part of fusion progression, they can also be renamed, giving them a more personal role than standard enemies."
-        },
-        {
-          "name": "Blasphemous Creature",
-          "role": "Elite Threat",
-          "description": "The blasphemous creature is tied to a dedicated combat achievement, marking it as a significant enemy encounter."
-        }
-      ]
-    },
-    "lucidBlocksMobilityGear": {
-      "title": "Lucid Blocks Mobility Gear",
-      "displayType": "itemCards",
-      "intro": "Movement upgrades are one of the biggest quality-of-life jumps in Lucid Blocks. Once you unlock your first traversal tools, exploration becomes faster, safer, and much more rewarding.",
+    "carFlipperRacing": {
+      "title": "Car Flipper Racing and World Exploration Guide",
+      "subtitle": "Use upgraded cars outside the workshop by racing friends, exploring the massive world, and driving your favorite builds.",
+      "intro": "Car Flipper is not only about buying wrecks and selling finished cars. Upgraded vehicles can also support racing, exploration, collection goals, and social play, giving your best builds a purpose after they leave the repair bay.",
       "items": [
         {
-          "name": "Hookshot",
-          "type": "Traversal Tool",
-          "description": "The hookshot is one of the clearest movement milestones in the game and has its own dedicated achievement."
+          "question": "What can you do after repairing a car in Car Flipper?",
+          "answer": "After repairing a damaged vehicle, you can customize it, upgrade it, keep it in your collection, sell it for profit, or use it as a driving-focused build."
         },
         {
-          "name": "Glider Glove",
-          "type": "Air Mobility",
-          "description": "The glider glove opens up much smoother travel and is another major progression milestone with its own achievement."
+          "question": "How do performance upgrades connect to racing in Car Flipper?",
+          "answer": "Performance parts are most useful on cars you plan to keep, race with friends, or drive around the world instead of selling immediately."
         },
         {
-          "name": "Bee Glider",
-          "type": "Traversal Tool",
-          "description": "Bee gliders are officially highlighted as part of the game's movement toolkit for covering space more efficiently."
+          "question": "Why explore the Car Flipper world instead of only selling cars?",
+          "answer": "Exploration gives upgraded and personalized cars a second purpose beyond resale. A car can become a vehicle you actually drive, show, and use."
         },
         {
-          "name": "Ball Wand",
-          "type": "Utility Gear",
-          "description": "Ball wands are one of the officially highlighted special tools and expand how you move through or interact with the world."
+          "question": "Which Car Flipper cars should be used for racing friends?",
+          "answer": "Use cars that have been repaired, upgraded for performance, and customized around your preferred driving style."
         },
         {
-          "name": "Scuba Diving Gear",
-          "type": "Exploration Gear",
-          "description": "Scuba diving gear is officially listed as part of the core utility set for reaching areas that would otherwise be harder to explore."
+          "question": "When should you keep a car instead of selling it in Car Flipper?",
+          "answer": "Keep cars that support your collection, dream vehicle goal, racing plans, or personal style. Sell cars that mainly exist to create profit for workshop growth."
         },
         {
-          "name": "Explosives",
-          "type": "Utility Damage",
-          "description": "Explosives are both officially highlighted and linked to an achievement milestone, making them part of the game's core utility progression."
-        }
-      ],
-      "unlockMilestones": [
-        "Command a hookshot",
-        "Fly with the glider glove",
-        "Brandish a projectile wand",
-        "Brandish an explosive"
-      ]
-    },
-    "lucidBlocksFarmingAndGrowth": {
-      "title": "Lucid Blocks Farming and Growth",
-      "displayType": "mixedCards",
-      "intro": "Growth is part of real progression in Lucid Blocks. Farming is not only about planting and harvesting, but also about setting up repeatable material routes that keep your tools, weapons, and crafting options flowing.",
-      "sections": [
-        {
-          "name": "Seed Progression",
-          "description": "Planting and fertilizing seeds is a real milestone in the game, and harvesting a fully-grown nut is part of the same growth path."
-        },
-        {
-          "name": "Material Farming",
-          "description": "A practical early farming loop is creating Mercury Capsules, which spawn small slimes that drop Tendrils and goo for repeatable crafting materials."
-        },
-        {
-          "name": "Tool Sustain",
-          "description": "Resource farming becomes much stronger once you can consistently gather Osmium, glass shards, plants, and slime materials for follow-up crafts."
-        },
-        {
-          "name": "Base Routine",
-          "description": "The best farming setup supports more than food. It should feed your storage, movement tools, weapon upgrades, and future fusion experiments."
-        }
-      ],
-      "growthMilestones": [
-        "Fertilize a seed",
-        "Harvest a fully-grown nut",
-        "Create repeatable material loops",
-        "Turn farming into long-term progression"
-      ]
-    },
-    "lucidBlocksBestEarlyUnlocks": {
-      "title": "Lucid Blocks Best Early Unlocks",
-      "displayType": "priorityCards",
-      "intro": "The strongest early unlocks are the ones that improve safety, storage, and movement. In Lucid Blocks, a few practical upgrades can make the entire rest of the game much smoother.",
-      "priorities": [
-        {
-          "name": "Personal Qualia",
-          "priority": "Essential",
-          "description": "As soon as you get access to your personal Qualia, your run becomes much more stable. It acts as a reliable hub for storage, building, and regrouping."
-        },
-        {
-          "name": "Frost Pick",
-          "priority": "Very High",
-          "description": "A fast and cheap early mining tool made from Osmium and Stick. It is one of the most useful upgrades for accelerating early resource collection."
-        },
-        {
-          "name": "Cache Cube",
-          "priority": "Very High",
-          "description": "Storage pressure starts early, so getting your first dependable chest-style container is a major quality-of-life upgrade."
-        },
-        {
-          "name": "Hookshot",
-          "priority": "High",
-          "description": "The hookshot is one of the clearest movement milestones in the game and quickly makes exploration faster and safer."
-        },
-        {
-          "name": "Glider Glove",
-          "priority": "High",
-          "description": "The glider glove adds another major mobility boost and makes long-distance movement far more efficient."
-        },
-        {
-          "name": "Projectile Wand or Bombs",
-          "priority": "High",
-          "description": "A ranged tool or explosive option gives you a safer answer to dangerous enemies and trial-style encounters."
-        }
-      ]
-    },
-    "lucidBlocksAchievementTracker": {
-      "title": "Lucid Blocks Achievement Tracker",
-      "displayType": "achievementGrid",
-      "intro": "Lucid Blocks currently has 19 Steam achievements, and they naturally split into exploration, crafting, mobility, combat, and growth progression.",
-      "groups": [
-        {
-          "name": "Exploration",
-          "achievements": [
-            {
-              "title": "Angel α",
-              "description": "Enter a qualia."
-            },
-            {
-              "title": "Angel γ",
-              "description": "Discover a tiamana leyline."
-            },
-            {
-              "title": "Angel δ",
-              "description": "Overcome a tiamana challenge."
-            },
-            {
-              "title": "Angel ε",
-              "description": "Hidden achievement."
-            }
-          ]
-        },
-        {
-          "name": "Crafting and Summoning",
-          "achievements": [
-            {
-              "title": "Apotheosis α",
-              "description": "Fuse an item."
-            },
-            {
-              "title": "Apotheosis β",
-              "description": "Fuse a vermin."
-            },
-            {
-              "title": "Apotheosis γ",
-              "description": "Fuse a divine artifact."
-            },
-            {
-              "title": "Archangel β",
-              "description": "Summon your faith."
-            }
-          ]
-        },
-        {
-          "name": "Mobility and Utility",
-          "achievements": [
-            {
-              "title": "Virtue α",
-              "description": "Fly with the glider glove."
-            },
-            {
-              "title": "Virtue β",
-              "description": "Command a hookshot."
-            },
-            {
-              "title": "Archangel α",
-              "description": "Brandish a projectile wand."
-            },
-            {
-              "title": "Archangel γ",
-              "description": "Brandish an explosive."
-            }
-          ]
-        },
-        {
-          "name": "Combat and Creatures",
-          "achievements": [
-            {
-              "title": "Bubblebear Massacre",
-              "description": "Defeat innocent bubblebears."
-            },
-            {
-              "title": "Archangel δ",
-              "description": "Eliminate a blasphemous creature."
-            },
-            {
-              "title": "Angel β",
-              "description": "Die."
-            },
-            {
-              "title": "Dominion γ",
-              "description": "Rename a cute vermin."
-            }
-          ]
-        },
-        {
-          "name": "Growth and Farming",
-          "achievements": [
-            {
-              "title": "Dominion α",
-              "description": "Fertilize a seed."
-            },
-            {
-              "title": "Dominion β",
-              "description": "Harvest a fully-grown nut."
-            },
-            {
-              "title": "Dominion δ",
-              "description": "Hidden achievement."
-            }
-          ]
-        }
-      ]
-    },
-    "lucidBlocksSingleplayerAndPlatformFAQ": {
-      "title": "Lucid Blocks Singleplayer and Platform FAQ",
-      "displayType": "accordion",
-      "intro": "These are the core platform and access questions players keep asking before buying Lucid Blocks.",
-      "faqs": [
-        {
-          "question": "Is Lucid Blocks singleplayer?",
-          "answer": "Yes. Lucid Blocks is a singleplayer game."
-        },
-        {
-          "question": "Is multiplayer or co-op planned?",
-          "answer": "No. Multiplayer is not planned for release or future updates."
-        },
-        {
-          "question": "Where can I play Lucid Blocks?",
-          "answer": "It is currently available on Steam for Windows."
-        },
-        {
-          "question": "How much does Lucid Blocks cost?",
-          "answer": "$9.99 on Steam."
-        },
-        {
-          "question": "Does Lucid Blocks support controllers?",
-          "answer": "Yes, but controller play is not recommended because the menus are not designed around it."
-        },
-        {
-          "question": "Does Lucid Blocks work on Steam Deck?",
-          "answer": "Yes. Proton 9.0 or 9.0.4 is the commonly recommended setup for Steam Deck."
-        },
-        {
-          "question": "Does Lucid Blocks work on Linux?",
-          "answer": "Yes. Proton 9.0 is reported to work well for Linux and Steam Deck."
-        },
-        {
-          "question": "Will Mac or Android be supported?",
-          "answer": "They may be supported in the future, but they are not current launch platforms."
-        },
-        {
-          "question": "Does Lucid Blocks have translations?",
-          "answer": "No. There are currently no translations planned."
-        },
-        {
-          "question": "Will Lucid Blocks keep getting updates?",
-          "answer": "Yes. Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
-        }
-      ]
-    },
-    "lucidBlocksSteamDeckAndController": {
-      "title": "Lucid Blocks Steam Deck and Controller",
-      "displayType": "accordion",
-      "intro": "Lucid Blocks can run on Steam Deck, but the default setup may need adjustment. Keyboard and mouse remains the smoother option for menus and general play.",
-      "faqs": [
-        {
-          "question": "Does Lucid Blocks work on Steam Deck?",
-          "answer": "Yes. Proton 9.0 works well, and Proton 9.0.4 is a commonly shared fix for Steam Deck issues."
-        },
-        {
-          "question": "What should I do if Steam Deck controls are not working?",
-          "answer": "Force compatibility and switch the game to Proton 9.0.4. The default configuration may not accept controller input correctly."
-        },
-        {
-          "question": "Does Lucid Blocks support controllers?",
-          "answer": "Yes, but controller play is not recommended because the game's menus are not designed around it."
-        },
-        {
-          "question": "Is Linux support possible?",
-          "answer": "Yes. Proton 9.0 is reported to work well for Linux and Steam Deck."
-        },
-        {
-          "question": "What is the best input setup?",
-          "answer": "Keyboard and mouse is the smoothest option for menu navigation and general moment-to-moment play."
-        }
-      ]
-    },
-    "lucidBlocksSettingsAndAccessibility": {
-      "title": "Lucid Blocks Settings and Accessibility",
-      "displayType": "settingCards",
-      "intro": "Lucid Blocks already has a few practical settings and compatibility notes that matter immediately when players first launch the game.",
-      "settings": [
-        {
-          "name": "Display Settings",
-          "type": "Comfort Option",
-          "description": "Display Settings includes an option that lets players hide the on-screen hands."
-        },
-        {
-          "name": "Graphics Compatibility",
-          "type": "System Requirement",
-          "description": "Vulkan support is required for the graphics to render properly. Systems without Vulkan can run into crashes and severe graphical glitches."
-        },
-        {
-          "name": "Input Preference",
-          "type": "Control Setup",
-          "description": "Controller support exists, but keyboard and mouse gives a smoother experience because menus are not built around controller use."
-        },
-        {
-          "name": "Language Support",
-          "type": "Localization",
-          "description": "The current setup is English-only, and no translations are planned right now."
-        }
-      ]
-    },
-    "lucidBlocksUpdatesAndPatchNotes": {
-      "title": "Lucid Blocks Updates and Patch Notes",
-      "displayType": "timeline",
-      "intro": "Lucid Blocks is already receiving quick post-launch fixes and small usability updates.",
-      "entries": [
-        {
-          "title": "Update 2.8.2",
-          "type": "UI Update",
-          "description": "Renamed \"awaken\" to \"exit\" in the main menu."
-        },
-        {
-          "title": "Small Patch for Start-Up Crashes",
-          "type": "Hotfix",
-          "description": "A dedicated patch was released for players whose game was crashing on launch."
-        },
-        {
-          "title": "Post-Launch Content Support",
-          "type": "Roadmap Note",
-          "description": "Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
-        }
-      ]
-    },
-    "lucidBlocksCrashFixAndTroubleshooting": {
-      "title": "Lucid Blocks Crash Fix and Troubleshooting",
-      "displayType": "steps",
-      "intro": "Most immediate launch and crash issues should be checked in a simple order: patch level, graphics support, platform compatibility, and logs.",
-      "steps": [
-        {
-          "title": "Install the Latest Crash Hotfix",
-          "description": "If the game is crashing on start, update first and test again with the latest start-up crash patch."
-        },
-        {
-          "title": "Check Vulkan Support",
-          "description": "Lucid Blocks requires Vulkan support. Systems without Vulkan can suffer from crashes or major rendering problems."
-        },
-        {
-          "title": "Use Proton 9.0.4 on Steam Deck",
-          "description": "If Steam Deck input or launch behavior is broken, force compatibility and switch to Proton 9.0.4."
-        },
-        {
-          "title": "Collect Crash Logs",
-          "description": "Open Windows Run, paste %APPDATA%, go to lucid blocks/logs, and gather the .txt files for troubleshooting."
-        },
-        {
-          "title": "Report the Issue Properly",
-          "description": "Share the logs and device details through the official Discord bug-reports forum or on the Steam community page."
+          "question": "How does racing fit into the Car Flipper loop?",
+          "answer": "Racing gives upgraded cars value beyond the garage. The loop becomes buy, repair, customize, upgrade, then either sell for profit or drive the finished build."
         }
       ]
     }
@@ -749,31 +458,31 @@
   "faq": {
     "title": "Frequently Asked",
     "titleHighlight": "Questions",
-    "subtitle": "Everything you need to know about Lucid Blocks",
+    "subtitle": "Everything you need to know about Car Flipper",
     "questions": [
       {
-        "question": "Is Lucid Blocks a singleplayer game?",
-        "answer": "Yes. Lucid Blocks is a singleplayer-only game with no multiplayer or co-op planned."
+        "question": "What is Car Flipper on Roblox?",
+        "answer": "Car Flipper is a Roblox vehicle simulation game by A&B Group, currently listed as Car Flipper [TUNING SHOP]. The core loop is buying damaged cars, repairing them, customizing them, upgrading performance, then keeping or selling them for profit."
       },
       {
-        "question": "What is the Apotheosis system in Lucid Blocks?",
-        "answer": "Apotheosis is Lucid Blocks' freeform fusion crafting system. Instead of following fixed recipes, you combine materials and discover your own crafting paths."
+        "question": "How do I redeem Car Flipper codes?",
+        "answer": "Finish the tutorial, open the gift icon at the top of the screen, enter the code, and press Enter. Car Flipper codes mostly reward containers and car parts that speed up early garage progress."
       },
       {
-        "question": "Where can I play Lucid Blocks?",
-        "answer": "Lucid Blocks is currently available on Steam for Windows. Linux and Steam Deck support is available through Proton 9.0."
+        "question": "How many vehicles are in Car Flipper?",
+        "answer": "The official Roblox page highlights more than 100 unique vehicles and hundreds of customization options, so there is a wide range of cars to repair, upgrade, collect, and sell."
       },
       {
-        "question": "How much does Lucid Blocks cost?",
-        "answer": "Lucid Blocks costs $9.99 on Steam."
+        "question": "What does the Tuning Shop do in Car Flipper?",
+        "answer": "The Tuning Shop is the upgrade layer that comes after repairs. Once a car is restored, you can use tuning and performance parts to turn it into a stronger, more personal build before keeping or selling it."
       },
       {
-        "question": "Does Lucid Blocks support controllers?",
-        "answer": "Yes, but controller play is not recommended because the menus are not designed around it. Keyboard and mouse is the smoother option."
+        "question": "Is Car Flipper free to play?",
+        "answer": "Yes. Car Flipper is a free Roblox experience you can open from the official Roblox game page on PC, mobile, and console."
       },
       {
-        "question": "Will Lucid Blocks receive updates?",
-        "answer": "Yes. Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
+        "question": "Can you race friends in Car Flipper?",
+        "answer": "Yes. Car Flipper includes racing friends and exploring a large world, so upgraded and customized cars have a purpose beyond the garage and resale loop."
       }
     ]
   },
@@ -801,121 +510,121 @@
   },
   "pages": {
     "guides": {
-      "title": "Lucid Blocks Guides",
-      "description": "Complete gameplay guides from beginner basics to advanced Apotheosis strategies. Master survival and crafting.",
-      "metaTitle": "Lucid Blocks Guides - Beginner to Advanced Strategies",
-      "metaDescription": "Complete Lucid Blocks guides covering beginner tips, Apotheosis system, survival strategies, and expert tactics for mastering the surreal sandbox.",
+      "title": "Car Flipper Guides",
+      "description": "Complete gameplay guides from beginner basics to advanced tuning strategies. Master repairs, customization, and flipping.",
+      "metaTitle": "Car Flipper Guides - Beginner to Advanced Strategies",
+      "metaDescription": "Complete Car Flipper guides covering beginner tips, repair basics, tuning shop strategies, and expert tactics for mastering the Roblox car flipping sandbox.",
       "categoryLabel": "GAME GUIDES",
       "whatIs": "What are Guides?",
-      "whatIsDescription": "Comprehensive guides covering gameplay mechanics, survival strategies, and the Apotheosis crafting system. Learn everything from first steps to advanced techniques.",
+      "whatIsDescription": "Comprehensive guides covering gameplay mechanics, repair strategies, and the tuning shop system. Learn everything from first steps to advanced techniques.",
       "why": "Why read guides?",
       "whySteps": {
         "step1Title": "Learn Core Mechanics",
-        "step1Description": "Understand the Apotheosis system and avoid common beginner mistakes",
+        "step1Description": "Understand the repair and tuning loop and avoid common beginner mistakes",
         "step2Title": "Fast Progression",
-        "step2Description": "Follow proven paths to survive and thrive in the surreal world",
+        "step2Description": "Follow proven paths to repair, customize, and flip cars for profit",
         "step3Title": "Master Strategies",
-        "step3Description": "Develop advanced tactics for exploration and crafting"
+        "step3Description": "Develop advanced tactics for upgrades, collection, and racing"
       },
       "featured": "Featured & Essential",
       "all": "All Guides"
     },
     "crafting": {
-      "title": "Lucid Blocks Crafting",
-      "description": "Master the Apotheosis fusion system with essence mechanics, recipes, and crafting strategies for powerful items.",
-      "metaTitle": "Lucid Blocks Crafting - Apotheosis System & Recipes",
-      "metaDescription": "Master Lucid Blocks Apotheosis crafting system. Learn essence mechanics, fusion recipes, and strategies for creating powerful tools and weapons.",
-      "categoryLabel": "CRAFTING SYSTEM",
-      "whatIs": "What is Crafting?",
-      "whatIsDescription": "The Apotheosis system is a unique essence-driven fusion mechanic where you combine up to six items to discover new recipes. No fixed crafting menus—experimentation is key.",
-      "why": "Why master crafting?",
+      "title": "Car Flipper Tuning",
+      "description": "Master the Tuning Shop with performance parts, upgrade routes, and tuning strategies for powerful builds.",
+      "metaTitle": "Car Flipper Tuning - Performance Parts & Upgrade Routes",
+      "metaDescription": "Master Car Flipper tuning. Learn performance parts, upgrade routes, and strategies for creating stronger, faster vehicles.",
+      "categoryLabel": "TUNING SHOP",
+      "whatIs": "What is Tuning?",
+      "whatIsDescription": "The Tuning Shop is the upgrade layer where you install performance parts and shape each car into a stronger, more personal build after repairs.",
+      "why": "Why master tuning?",
       "whySteps": {
-        "step1Title": "Unlock Powerful Items",
-        "step1Description": "Discover essential tools, weapons, and mobility gear through fusion",
-        "step2Title": "Understand Essences",
-        "step2Description": "Learn how item essences combine to create predictable results",
+        "step1Title": "Upgrade Performance",
+        "step1Description": "Install performance parts to push builds beyond their starting condition",
+        "step2Title": "Personalize Builds",
+        "step2Description": "Shape cars around your style for collection or resale value",
         "step3Title": "Optimize Resources",
-        "step3Description": "Use dilution mechanics to maximize output from cheap materials"
+        "step3Description": "Spend tuning resources on cars with a clear keep or sell purpose"
       },
       "featured": "Featured & Essential",
-      "all": "All Crafting Guides"
+      "all": "All Tuning Guides"
     },
     "items": {
-      "title": "Lucid Blocks Items",
-      "description": "Detailed item guides covering tools, weapons, mobility gear, and storage solutions with crafting recipes and usage tips.",
-      "metaTitle": "Lucid Blocks Items - Tools, Weapons & Gear Guide",
-      "metaDescription": "Complete item database for Lucid Blocks including tools, weapons, mobility gear, and storage. Learn how to craft and use every item effectively.",
-      "categoryLabel": "ITEMS & EQUIPMENT",
-      "whatIs": "What are Items?",
-      "whatIsDescription": "Comprehensive guides for tools, weapons, mobility gear, and functional items. Learn crafting recipes, usage strategies, and optimal combinations.",
-      "why": "Why check item guides?",
+      "title": "Car Flipper Cars and Parts",
+      "description": "Detailed guides covering vehicles, car parts, performance upgrades, and customization with usage tips.",
+      "metaTitle": "Car Flipper Cars and Parts - Vehicles & Upgrades Guide",
+      "metaDescription": "Complete Car Flipper item database including vehicles, car parts, performance upgrades, and customization. Learn how to use every car effectively.",
+      "categoryLabel": "CARS & PARTS",
+      "whatIs": "What are Cars and Parts?",
+      "whatIsDescription": "Comprehensive guides for vehicles, car parts, and customization. Learn usage strategies and optimal combinations for repair and resale.",
+      "why": "Why check car and part guides?",
       "whySteps": {
-        "step1Title": "Learn Crafting Recipes",
-        "step1Description": "Discover how to craft essential tools and weapons using Apotheosis",
-        "step2Title": "Optimize Equipment",
-        "step2Description": "Choose the best items for your playstyle and progression stage",
-        "step3Title": "Improve Survival",
-        "step3Description": "Equip mobility gear and weapons to navigate the dangerous world"
+        "step1Title": "Choose the Right Car",
+        "step1Description": "Pick vehicles that match your flip, collection, or racing goal",
+        "step2Title": "Upgrade Smartly",
+        "step2Description": "Install the right parts for your playstyle and progression stage",
+        "step3Title": "Improve Value",
+        "step3Description": "Equip performance parts to raise resale and collection value"
       },
       "featured": "Featured & Essential",
-      "all": "All Items"
+      "all": "All Cars and Parts"
     },
     "biomes": {
-      "title": "Lucid Blocks Biomes",
-      "description": "Explore world regions, environmental features, resource locations, and survival tips for each biome.",
-      "metaTitle": "Lucid Blocks Biomes - World Regions & Exploration",
-      "metaDescription": "Explore Lucid Blocks biomes including Tiamana Leylines, Fog Meadow, and surreal regions. Find resources, avoid dangers, and navigate the infinite world.",
-      "categoryLabel": "WORLD REGIONS",
-      "whatIs": "What are Biomes?",
-      "whatIsDescription": "Guides to different world regions, environmental features, resource distribution, and danger zones. Learn what to expect and how to prepare for each area.",
-      "why": "Why explore biomes?",
+      "title": "Car Flipper World",
+      "description": "Explore the game world, driving areas, race tracks, and locations for finding and testing vehicles.",
+      "metaTitle": "Car Flipper World - Driving Areas & Exploration",
+      "metaDescription": "Explore the Car Flipper world including driving areas, race tracks, and exploration zones. Find the best places to drive, test, and show off vehicles.",
+      "categoryLabel": "WORLD & DRIVING",
+      "whatIs": "What is the World?",
+      "whatIsDescription": "Guides to the game world, driving areas, race locations, and exploration spots. Learn what to expect and how to use upgraded cars beyond the garage.",
+      "why": "Why explore the world?",
       "whySteps": {
-        "step1Title": "Find Resources",
-        "step1Description": "Locate rare materials and essences specific to each region",
-        "step2Title": "Avoid Dangers",
-        "step2Description": "Understand environmental hazards and hostile creatures",
-        "step3Title": "Plan Exploration",
-        "step3Description": "Prepare the right tools and gear for each biome type"
+        "step1Title": "Race Friends",
+        "step1Description": "Take upgraded cars to the track and compete with friends",
+        "step2Title": "Test Builds",
+        "step2Description": "Drive finished cars to feel how upgrades perform",
+        "step3Title": "Show Off",
+        "step3Description": "Display personalized builds across the open world"
       },
       "featured": "Featured & Essential",
-      "all": "All Biomes"
+      "all": "All World Guides"
     },
     "building": {
-      "title": "Lucid Blocks Building",
-      "description": "Master Qualia personal dimensions, base building, storage management, and creative construction techniques.",
-      "metaTitle": "Lucid Blocks Building - Qualia & Base Construction",
-      "metaDescription": "Master Lucid Blocks building with Qualia personal dimensions, base construction, storage solutions, and creative building techniques.",
-      "categoryLabel": "BUILDING & BASES",
-      "whatIs": "What is Building?",
-      "whatIsDescription": "Guides to the Qualia personal dimension system, base construction, storage management, and creative building. Learn to create your safe haven in the surreal world.",
-      "why": "Why build bases?",
+      "title": "Car Flipper Workshop",
+      "description": "Master workshop expansion, garage management, profit decisions, and keep-versus-sell choices.",
+      "metaTitle": "Car Flipper Workshop - Garage Expansion & Profit",
+      "metaDescription": "Master Car Flipper workshop expansion with garage management, profit decisions, and keep-versus-sell strategies for building a car empire.",
+      "categoryLabel": "WORKSHOP & PROFIT",
+      "whatIs": "What is the Workshop?",
+      "whatIsDescription": "Guides to workshop expansion, garage management, and profit decisions. Learn to grow from a small garage into a full car business.",
+      "why": "Why grow the workshop?",
       "whySteps": {
-        "step1Title": "Create Safe Spaces",
-        "step1Description": "Establish secure bases for storage and crafting operations",
-        "step2Title": "Manage Resources",
-        "step2Description": "Organize materials efficiently with storage solutions",
-        "step3Title": "Unlock Qualia",
-        "step3Description": "Access personal pocket dimensions for ultimate convenience"
+        "step1Title": "Expand Capacity",
+        "step1Description": "Grow your garage to handle more and better vehicles",
+        "step2Title": "Manage Profit",
+        "step2Description": "Balance selling for profit against keeping collection cars",
+        "step3Title": "Build an Empire",
+        "step3Description": "Turn single repairs into a long-term car business"
       },
       "featured": "Featured & Essential",
-      "all": "All Building Guides"
+      "all": "All Workshop Guides"
     },
     "support": {
-      "title": "Lucid Blocks Support",
-      "description": "Technical support, platform compatibility, performance optimization, and troubleshooting for common issues.",
-      "metaTitle": "Lucid Blocks Support - Technical Help & Fixes",
-      "metaDescription": "Get technical support for Lucid Blocks including Steam Deck setup, crash fixes, performance optimization, and platform compatibility guides.",
-      "categoryLabel": "TECHNICAL SUPPORT",
+      "title": "Car Flipper Support",
+      "description": "Platform help, redeem troubleshooting, and answers for common Car Flipper questions.",
+      "metaTitle": "Car Flipper Support - Help & Troubleshooting",
+      "metaDescription": "Get support for Car Flipper including platform help, redeem troubleshooting, and answers to common questions about the Roblox experience.",
+      "categoryLabel": "HELP & SUPPORT",
       "whatIs": "What is Support?",
-      "whatIsDescription": "Technical guides covering platform compatibility, performance optimization, crash fixes, and common issues. Get help with Steam Deck, multiplayer questions, and settings.",
+      "whatIsDescription": "Help covering platform access, redeem troubleshooting, and common questions. Get answers about codes, platforms, and gameplay basics.",
       "why": "Why check support?",
       "whySteps": {
-        "step1Title": "Fix Technical Issues",
-        "step1Description": "Resolve crashes, performance problems, and compatibility issues",
-        "step2Title": "Optimize Performance",
-        "step2Description": "Configure settings for best experience on your platform",
-        "step3Title": "Platform Compatibility",
-        "step3Description": "Learn about Steam Deck, controller support, and system requirements"
+        "step1Title": "Fix Redeem Issues",
+        "step1Description": "Resolve code entry problems and find the redeem menu",
+        "step2Title": "Platform Help",
+        "step2Description": "Play Car Flipper on PC, mobile, and console",
+        "step3Title": "Quick Answers",
+        "step3Description": "Get fast answers to common beginner questions"
       },
       "featured": "Featured & Essential",
       "all": "All Support Articles"
