@@ -775,17 +775,18 @@ export default function HomePageClient({
               return (
                 <div
                   key={i}
-                  className="p-5 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors"
+                  className="relative p-5 pt-6 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] hover:-translate-y-1 transition-all duration-300 overflow-hidden"
                 >
-                  <div className="flex items-center gap-3 mb-3">
-                    <div className="flex h-11 w-11 items-center justify-center rounded-lg bg-[hsl(var(--nav-theme)/0.12)] border border-[hsl(var(--nav-theme)/0.3)]">
-                      <Icon className="h-5 w-5 text-[hsl(var(--nav-theme-light))]" />
+                  <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-[hsl(var(--nav-theme))] via-[hsl(var(--nav-theme)/0.5)] to-transparent" />
+                  <div className="flex items-center gap-3 mb-4">
+                    <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-[hsl(var(--nav-theme))] text-white shadow-lg shadow-[hsl(var(--nav-theme)/0.3)]">
+                      <span className="text-base font-black">{tier.tier}</span>
                     </div>
-                    <div>
-                      <span className="inline-block text-xs font-mono font-bold px-2 py-0.5 rounded bg-[hsl(var(--nav-theme))] text-white">
-                        {tier.tier}
-                      </span>
-                      <h3 className="font-bold text-base mt-1">{tier.label}</h3>
+                    <div className="flex items-center gap-2 min-w-0">
+                      <Icon className="h-5 w-5 text-[hsl(var(--nav-theme-light))] flex-shrink-0" />
+                      <h3 className="font-bold text-base md:text-lg leading-tight">
+                        {tier.label}
+                      </h3>
                     </div>
                   </div>
                   <div className="space-y-2.5">
@@ -873,7 +874,7 @@ export default function HomePageClient({
                   return (
                     <tr
                       key={i}
-                      className="border-t border-border hover:bg-white/[0.03] transition-colors"
+                      className={`border-t border-border hover:bg-white/[0.05] transition-colors ${i % 2 === 0 ? "bg-white/[0.02]" : ""}`}
                     >
                       <td className="p-4 align-top">
                         <div className="flex items-center gap-2">
@@ -957,10 +958,15 @@ export default function HomePageClient({
               return (
                 <div
                   key={i}
-                  className="p-5 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors"
+                  className="relative p-5 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] hover:-translate-y-1 transition-all duration-300"
                 >
-                  <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-[hsl(var(--nav-theme)/0.1)] mb-3">
-                    <Icon className="h-5 w-5 text-[hsl(var(--nav-theme-light))]" />
+                  <div className="flex items-center justify-between mb-3">
+                    <div className="flex h-11 w-11 items-center justify-center rounded-lg bg-[hsl(var(--nav-theme)/0.12)] border border-[hsl(var(--nav-theme)/0.3)]">
+                      <Icon className="h-5 w-5 text-[hsl(var(--nav-theme-light))]" />
+                    </div>
+                    <span className="text-2xl font-black text-[hsl(var(--nav-theme)/0.3)] tabular-nums leading-none">
+                      {String(i + 1).padStart(2, "0")}
+                    </span>
                   </div>
                   <h3 className="font-bold mb-1.5">{card.title}</h3>
                   <p className="text-sm text-muted-foreground mb-3">
