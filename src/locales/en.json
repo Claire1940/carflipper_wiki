@@ -10,14 +10,7 @@
       "twitterDescription": "Find Car Flipper codes, vehicle repair, tuning shop guides, car upgrades, and workshop expansion tips for the Roblox game."
     }
   },
-  "nav": {
-    "guides": "Guides",
-    "crafting": "Crafting",
-    "items": "Items",
-    "biomes": "Biomes",
-    "building": "Building",
-    "support": "Support"
-  },
+  "nav": {},
   "common": {
     "home": "Home",
     "more": "More",
