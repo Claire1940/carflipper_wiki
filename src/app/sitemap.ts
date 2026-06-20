@@ -4,28 +4,26 @@ import { routing, type Locale } from '@/i18n/routing'
 
 const BASE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.carflipper.wiki'
 
-// 内容类型优先级配置
+// 内容类型优先级配置（对齐 Car Flipper 实际 7 个内容分类）
 const contentTypePriority: Record<string, number> = {
-	'guides': 0.9,
-	'crafting': 0.9,
-	'biomes': 0.8,
-	'creatures': 0.8,
-	'items': 0.8,
+	'codes': 0.9,
+	'guide': 0.9,
+	'cars': 0.8,
+	'upgrades': 0.8,
+	'tier': 0.8,
+	'workshop': 0.8,
 	'achievements': 0.7,
-	'lore': 0.7,
-	'support': 0.6,
 }
 
-// 内容更新频率配置
+// 内容更新频率配置（对齐 Car Flipper 实际 7 个内容分类）
 const contentTypeChangeFrequency: Record<string, 'daily' | 'weekly' | 'monthly'> = {
-	'guides': 'weekly',
-	'crafting': 'weekly',
-	'biomes': 'weekly',
-	'creatures': 'weekly',
-	'items': 'weekly',
+	'codes': 'daily',
+	'guide': 'weekly',
+	'cars': 'weekly',
+	'upgrades': 'weekly',
+	'tier': 'weekly',
+	'workshop': 'weekly',
 	'achievements': 'monthly',
-	'lore': 'monthly',
-	'support': 'monthly',
 }
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {

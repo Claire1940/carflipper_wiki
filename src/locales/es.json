@@ -1,11 +1,682 @@
 {
+  "seo": {
+    "home": {
+      "title": "Wiki de Car Flipper - Códigos, autos y guía de tuning",
+      "description": "Encuentra rápidamente códigos de Car Flipper, consejos de reparación de vehículos, la guía del taller de tuning, mejoras de autos, la expansión del taller, conceptos básicos de carreras y ayuda para principiantes en Roblox.",
+      "keywords": "Car Flipper, Roblox, códigos, autos, tuning, reparación, mejoras, taller",
+      "ogTitle": "Wiki de Car Flipper - Códigos, autos y guía de tuning",
+      "ogDescription": "Encuentra rápidamente códigos de Car Flipper, consejos de reparación de vehículos, la guía del taller de tuning, mejoras de autos, la expansión del taller, conceptos básicos de carreras y ayuda para principiantes en Roblox.",
+      "twitterTitle": "Wiki de Car Flipper - Códigos, autos y guía de tuning",
+      "twitterDescription": "Encuentra códigos de Car Flipper, reparación de vehículos, guías de talleres de tuning, mejoras de autos y consejos para la expansión del taller del juego de Roblox."
+    }
+  },
   "nav": {
     "codes": "Códigos",
     "guide": "Guía",
-    "cars": "Coches",
+    "cars": "Autos",
     "upgrades": "Mejoras",
-    "tier": "Lista de Niveles",
+    "tier": "Tier List",
     "workshop": "Taller",
     "achievements": "Logros"
+  },
+  "common": {
+    "home": "Inicio",
+    "more": "Más",
+    "playNow": "Jugar en Roblox",
+    "switchLanguage": "Cambiar idioma",
+    "switchTheme": "Cambiar tema",
+    "lightMode": "Modo claro",
+    "darkMode": "Modo oscuro",
+    "notFound": "Página no encontrada",
+    "notFoundDescription": "La página que estás buscando no existe.",
+    "backToHome": "Volver al inicio",
+    "relatedArticles": "Artículos relacionados",
+    "readMore": "Leer más",
+    "articlesComingSoon": "Próximamente más artículos"
+  },
+  "hero": {
+    "badge": "Simulador de reparación y compraventa de autos en Roblox",
+    "title": "Wiki de Car Flipper",
+    "description": "Compra autos dañados, repáralos, personaliza piezas, mejora el rendimiento, expande tu taller, colecciona vehículos raros y vende tus creaciones para obtener ganancias en Car Flipper de Roblox.",
+    "getFreeCodesCTA": "Obtén códigos gratis",
+    "playOnRobloxCTA": "Jugar en Roblox",
+    "stats": {
+      "stat1": {
+        "value": "100+",
+        "label": "Vehículos"
+      },
+      "stat2": {
+        "value": "Cientos",
+        "label": "Opciones de personalización"
+      },
+      "stat3": {
+        "value": "6/18/2026",
+        "label": "Última actualización"
+      },
+      "stat4": {
+        "value": "14",
+        "label": "Tamaño del servidor"
+      }
+    }
+  },
+  "gameFeature": {
+    "title": "Gameplay de Car Flipper",
+    "description": "Compra autos dañados, repáralos en tu garaje, personaliza y tuna piezas, mejora el rendimiento y revende vehículos para obtener ganancias en esta simulación de autos de Roblox."
+  },
+  "tools": {
+    "title": "Car Flipper",
+    "titleHighlight": "Guías",
+    "subtitle": "Todo lo que necesitas para reparar, personalizar, tunar y revender autos en Car Flipper.",
+    "cards": [
+      {
+        "title": "Códigos de Car Flipper",
+        "description": "Códigos activos, pasos de canje y tipos de recompensas"
+      },
+      {
+        "title": "Enlaces oficiales de Car Flipper",
+        "description": "Página oficial de Roblox, A&B Group e información del juego"
+      },
+      {
+        "title": "Guía para principiantes de Car Flipper",
+        "description": "Primer auto, reparaciones y tu primera reventa rentable"
+      },
+      {
+        "title": "Taller de tuning de Car Flipper",
+        "description": "Piezas de rendimiento y prioridades de mejora"
+      },
+      {
+        "title": "Lista de niveles de vehículos de Car Flipper",
+        "description": "Los mejores autos para conservar, mejorar o vender"
+      },
+      {
+        "title": "Mejoras de Car Flipper",
+        "description": "Guía de piezas, reparaciones y mejoras de rendimiento"
+      },
+      {
+        "title": "Taller de Car Flipper",
+        "description": "Expansión, ganancias y decisiones de conservar o vender"
+      },
+      {
+        "title": "Carreras de Car Flipper",
+        "description": "Carreras con amigos y exploración del mundo"
+      }
+    ]
+  },
+  "modules": {
+    "carFlipperCodes": {
+      "title": "Guía de códigos y canje de Car Flipper",
+      "subtitle": "Canjea códigos de Car Flipper para obtener contenedores y piezas de autos gratis que te ayudarán a reparar, mejorar y revender vehículos más rápido.",
+      "intro": "Los códigos de Car Flipper se ingresan después del tutorial a través del ícono de regalo en la parte superior de la pantalla. Las recompensas se centran en contenedores y piezas de autos, lo que te ayuda a restaurar autos dañados y construir tu garaje desde el principio.",
+      "activeLabel": "Códigos activos",
+      "expiredLabel": "Códigos expirados",
+      "stepsLabel": "Cómo canjear",
+      "rewardLabel": "Tipos de recompensas",
+      "activeCodes": [
+        {
+          "code": "3KLIKES",
+          "reward": "1 contenedor raro, 1 contenedor poco común y 1 contenedor común",
+          "rewardType": "Contenedores"
+        },
+        {
+          "code": "RELEASE",
+          "reward": "100 piezas de autos poco comunes, 500 piezas de autos comunes, 1 contenedor raro, 1 contenedor poco común y 1 contenedor común",
+          "rewardType": "Piezas de autos y contenedores"
+        }
+      ],
+      "expiredCodes": [
+        {
+          "code": "1KLIKES",
+          "reward": "1 contenedor raro, 1 contenedor poco común y 1 contenedor común",
+          "rewardType": "Contenedores"
+        }
+      ],
+      "redeemSteps": [
+        {
+          "title": "Inicia el juego oficial de Roblox",
+          "description": "Abre Car Flipper desde la página de experiencia oficial de Roblox en lugar de páginas de scripts, copias falsas o resultados de reventa de autos no relacionados."
+        },
+        {
+          "title": "Completa el tutorial",
+          "description": "La opción para introducir códigos aparece después del tutorial inicial, así que completa primero los pasos de inicio."
+        },
+        {
+          "title": "Usa el icono de regalo",
+          "description": "Haz clic o toca el icono de regalo en la parte superior de la pantalla, introduce el código en la casilla de códigos y pulsa Enter para reclamar la recompensa."
+        }
+      ],
+      "rewardTypes": [
+        {
+          "title": "Contenedores",
+          "description": "Los contenedores proporcionan recompensas útiles para el taller y ayudan a los nuevos jugadores a ganar impulso sin tener que esperar tanto por los recursos iniciales."
+        },
+        {
+          "title": "Piezas de coche",
+          "description": "Las piezas de coche son fundamentales para el ciclo principal de reparación y mejora, especialmente al restaurar vehículos dañados para coleccionarlos o revenderlos."
+        }
+      ]
+    },
+    "carFlipperOfficialLinks": {
+      "title": "Enlaces oficiales e información del juego de Car Flipper",
+      "subtitle": "Usa la página oficial de Roblox y los canales de A&B Group para jugar a la experiencia correcta y seguir las actualizaciones reales.",
+      "intro": "Car Flipper es un juego de simulación de vehículos en Roblox creado por A&B Group. El título actual en Roblox es Car Flipper [TUNING SHOP], y el ciclo principal del juego consiste en comprar coches dañados, repararlos, personalizarlos, mejorar su rendimiento y luego conservarlos o venderlos para obtener beneficios.",
+      "linksLabel": "Canales oficiales",
+      "infoLabel": "Información del juego",
+      "links": [
+        {
+          "title": "Juego oficial de Roblox",
+          "label": "Jugar a Car Flipper",
+          "url": "https://www.roblox.com/games/136533956395153/Car-Flipper",
+          "description": "La página oficial de la experiencia en Roblox de Car Flipper [TUNING SHOP] de A&B Group."
+        },
+        {
+          "title": "Grupo de desarrolladores",
+          "label": "A&B Group",
+          "url": "https://www.roblox.com/communities/11553831/A-B-Group",
+          "description": "La página de la comunidad de Roblox del creador de Car Flipper."
+        },
+        {
+          "title": "Discord oficial",
+          "label": "Servidor de A&B Group",
+          "url": "https://discord.com/invite/Hh99xVFyRV",
+          "description": "El servidor de la comunidad utilizado para actualizaciones, anuncios y el seguimiento de códigos de Car Flipper."
+        }
+      ],
+      "info": [
+        {
+          "title": "Título del juego",
+          "label": "Car Flipper [TUNING SHOP]",
+          "description": "La ficha de Roblox utiliza la etiqueta de título Tuning Shop, lo que la convierte en la mejor coincidencia al buscar la última versión."
+        },
+        {
+          "title": "Jugabilidad principal",
+          "label": "Reparar, personalizar, mejorar, vender",
+          "description": "Empieza con vehículos averiados, compra coches dañados, repáralos, personalízalos y decide si te los quedas o los vendes para obtener beneficios."
+        },
+        {
+          "title": "Colección de vehículos",
+          "label": "Más de 100 vehículos únicos",
+          "description": "La página del juego destaca más de 100 vehículos únicos y cientos de opciones de personalización."
+        },
+        {
+          "title": "Objetivos de progresión",
+          "label": "De taller a imperio de coches",
+          "description": "Los jugadores pueden ampliar su taller, personalizar coches, explorar un gran mundo y competir contra amigos."
+        },
+        {
+          "title": "Control de seguridad",
+          "label": "Abre el juego correcto",
+          "description": "Usa la página oficial de Roblox al realizar búsquedas, ya que Car Flipper puede confundirse con guías del mundo real sobre compraventa de coches y otros juegos de vehículos no relacionados."
+        }
+      ]
+    },
+    "carFlipperBeginnerGuide": {
+      "title": "Guía para principiantes de Car Flipper",
+      "subtitle": "Aprende el camino básico desde tu primer cacharro oxidado hasta una reventa de vehículo rentable.",
+      "intro": "Car Flipper se basa en un ciclo de taller sencillo: empieza con un vehículo averiado, repáralo, personalízalo, mejóralo y luego elige entre el valor de colección y el beneficio de reventa. Los jugadores nuevos deberían centrarse en aprender este ciclo antes de buscar vehículos raros o mejoras costosas.",
+      "steps": [
+        {
+          "title": "Empieza con un vehículo averiado",
+          "description": "Comienza tu partida trabajando en un coche dañado. Esto te enseñará el ciclo de reparación antes de que gastes mucho en vehículos nuevos.",
+          "playerGoal": "Comprende el flujo básico del taller."
+        },
+        {
+          "title": "Compra coches dañados",
+          "description": "Busca vehículos dañados que puedan ser restaurados y mejorados. El juego se centra en convertir cacharros oxidados en mejores coches.",
+          "playerGoal": "Consigue coches que puedan convertirse en reventas rentables."
+        },
+        {
+          "title": "Repara el coche primero",
+          "description": "El trabajo de reparación debe ir antes que las mejoras estéticas, porque el vehículo debe ser funcional antes de poder ser valioso.",
+          "playerGoal": "Pasa el coche de ser una chatarra a un vehículo utilizable."
+        },
+        {
+          "title": "Personaliza el vehículo",
+          "description": "Usa las opciones de personalización para dar forma al aspecto del coche y hacer que cada proyecto se sienta diferente.",
+          "playerGoal": "Crea un coche que combine con el estilo de tu taller."
+        },
+        {
+          "title": "Instala mejoras y piezas de rendimiento",
+          "description": "Mejora el rendimiento después de la fase de reparación para que el coche mejore más allá de su estado inicial.",
+          "playerGoal": "Convierte un coche restaurado básico en un proyecto más potente."
+        },
+        {
+          "title": "Decide si quedártelo o venderlo",
+          "description": "Después de la restauración y personalización, elige si el coche pertenece a tu colección o si debe venderse para obtener beneficios.",
+          "playerGoal": "Equilibra el progreso de la colección con los beneficios."
+        },
+        {
+          "title": "Amplía tu taller",
+          "description": "Usa tus ganancias y recursos para hacer crecer el taller y encargarte de mejores vehículos con el tiempo.",
+          "playerGoal": "Pasa de tener un garaje pequeño a un negocio de coches más grande."
+        },
+        {
+          "title": "Explora y compite con amigos",
+          "description": "Más allá del taller, el juego incluye un gran mundo para explorar y carreras con amigos como parte del ciclo centrado en los vehículos.",
+          "playerGoal": "Usa tus coches terminados fuera del taller."
+        }
+      ]
+    },
+    "carFlipperTuningShop": {
+      "title": "Guía del taller de tuning de Car Flipper",
+      "subtitle": "Usa el taller de tuning como la capa de mejora después de las reparaciones, la personalización y el progreso básico del taller.",
+      "intro": "La actualización del taller de tuning encaja de forma natural en el ciclo de restauración y mejora de Car Flipper. Una vez reparado el coche, el tuning y las piezas de rendimiento ayudan a transformarlo de un simple vehículo restaurado a un proyecto más personal y de mayor impacto.",
+      "items": [
+        {
+          "title": "Qué significa el taller de tuning",
+          "content": "El título actual de Roblox es Car Flipper [TUNING SHOP] y la descripción del juego destaca la mejora de vehículos, la instalación de piezas de rendimiento y la creación de coches que se adapten a tu estilo."
+        },
+        {
+          "title": "Dónde encaja el tuning en el ciclo",
+          "content": "El tuning funciona mejor después de haber reparado el coche. Primero restaura el vehículo dañado y luego usa la personalización y las mejoras de rendimiento para mejorar el proyecto final."
+        },
+        {
+          "title": "Enfoque en las mejoras de rendimiento",
+          "content": "El juego destaca las mejoras de rendimiento como una característica principal, por lo que el tuning es el puente entre un coche restaurado básico y un vehículo terminado más potente."
+        },
+        {
+          "title": "Enfoque en la personalización de estilo",
+          "content": "Car Flipper también hace hincapié en la personalización, por lo que el tuning no se trata solo de velocidad o rendimiento. Los jugadores pueden diseñar los coches según su aspecto preferido y la identidad de su taller."
+        },
+        {
+          "title": "Decisión de quedarse o vender",
+          "content": "Después del tuning, decide si vale la pena conservar el coche mejorado en tu colección o venderlo para obtener beneficios. Esta decisión forma parte del ciclo principal de Car Flipper."
+        },
+        {
+          "title": "Progresión del taller",
+          "content": "A medida que tu taller crece, el tuning se vuelve más útil porque los mejores autos y más opciones de personalización le dan a cada proyecto más margen de mejora."
+        },
+        {
+          "title": "El mejor hábito de tuning para empezar",
+          "content": "No gastes todos los recursos de inmediato. Repara el auto, revisa las opciones de mejora y luego haz tuning en las piezas que apoyen tu objetivo actual: ganancias de reventa, valor de colección o carreras con amigos."
+        },
+        {
+          "title": "Lista de verificación del taller de tuning",
+          "content": "Antes de terminar un auto, verifica el estado de la reparación, las opciones de personalización, las piezas de rendimiento, el valor de la mejora y si el auto debe venderse o conservarse."
+        }
+      ]
+    },
+    "carFlipperTierList": {
+      "title": "Los mejores autos y Tier List de vehículos de Car Flipper",
+      "subtitle": "Clasifica los más de 100 vehículos únicos según cómo quieras usarlos: compraventa para obtener ganancias, colección, personalización o carreras.",
+      "intro": "Car Flipper se basa en comprar autos dañados, repararlos, personalizarlos y luego elegir si conservarlos o venderlos para obtener ganancias. Dado que el juego ofrece más de 100 vehículos únicos y cientos de opciones de personalización, la lista de niveles más útil se basa en el propósito del vehículo: valor de reventa, colección a largo plazo, potencial de tuning y uso en carreras.",
+      "scopeLabel": "Categoría del vehículo",
+      "bestForLabel": "Ideal para",
+      "actionLabel": "Acción del jugador",
+      "tiers": [
+        {
+          "tier": "S",
+          "label": "Autos de colección de ensueño",
+          "vehicleScope": "Vehículos terminados que quieres conservar después de la reparación, personalización y mejoras de rendimiento",
+          "bestFor": [
+            "colección",
+            "estilo personal",
+            "carreras con amigos",
+            "propiedad a largo plazo"
+          ],
+          "playerAction": "Conserva el auto, personalízalo a fondo, instala piezas de rendimiento y úsalo más allá del garaje."
+        },
+        {
+          "tier": "A",
+          "label": "Autos para reventa con ganancias",
+          "vehicleScope": "Vehículos dañados que se pueden reparar, personalizar y vender como parte del bucle principal de compraventa",
+          "bestFor": [
+            "obtener ganancias",
+            "crecimiento del taller",
+            "compraventa repetida"
+          ],
+          "playerAction": "Compra autos dañados, restáuralos, mejora su presentación y véndelos cuando se alcance el objetivo de ganancias."
+        },
+        {
+          "tier": "B",
+          "label": "Autos de prueba de mejoras",
+          "vehicleScope": "Autos usados para comparar piezas de rendimiento, estilos de personalización y sensación de conducción",
+          "bestFor": [
+            "aprender sobre mejoras",
+            "probar el rendimiento",
+            "práctica de tuning"
+          ],
+          "playerAction": "Usa estos autos para comprender cómo las mejoras, las piezas y la personalización afectan al vehículo terminado."
+        },
+        {
+          "tier": "C",
+          "label": "Autos de reparación iniciales",
+          "vehicleScope": "Vehículos averiados iniciales que se usan para aprender el bucle de reparación y venta",
+          "bestFor": [
+            "principiantes",
+            "primeras reparaciones",
+            "práctica básica de compraventa"
+          ],
+          "playerAction": "Concéntrate en restaurar, personalizar y vender antes de gastar demasiado en mejoras a largo plazo."
+        },
+        {
+          "tier": "Estilo",
+          "label": "Creaciones de exhibición",
+          "vehicleScope": "Cualquier vehículo elegido principalmente por su identidad visual y potencial de personalización",
+          "bestFor": [
+            "autos personalizados",
+            "exhibición en el garaje",
+            "diseños creativos"
+          ],
+          "playerAction": "Usa cientos de opciones de personalización para crear autos que se adapten a tu estilo."
+        }
+      ]
+    },
+    "carFlipperUpgrades": {
+      "title": "Piezas y mejoras de rendimiento de Car Flipper",
+      "subtitle": "Comprende cómo las reparaciones, la personalización y las piezas de rendimiento encajan en el ciclo de reventa antes de vender, coleccionar o competir con un auto.",
+      "intro": "Car Flipper permite a los jugadores restaurar vehículos dañados, personalizarlos, instalar piezas de rendimiento y personalizar autos antes de decidir si venderlos o conservarlos. La ruta de mejora funciona mejor cuando cada auto tiene un propósito claro: reventa rápida, exhibición en la colección o conducción mejorada.",
+      "colCategory": "Categoría",
+      "colRole": "Rol",
+      "colBestFor": "Ideal para",
+      "colPriority": "Prioridad recomendada",
+      "rows": [
+        {
+          "category": "Restaurar y reparar",
+          "role": "Convierte un vehículo averiado en un auto de proyecto utilizable",
+          "bestUsedFor": "Cada reventa, especialmente en el progreso inicial",
+          "impact": "La reparación es la base del ciclo de comprar dañado, arreglar y vender para obtener ganancias.",
+          "recommendedPriority": "Comienza aquí antes de gastar en estilo o rendimiento."
+        },
+        {
+          "category": "Opciones de personalización",
+          "role": "Cambia cómo se ve y se siente un auto como diseño terminado",
+          "bestUsedFor": "Autos de colección, presentación para la reventa y diseños personales",
+          "impact": "La personalización ayuda a que cada auto se convierta en un vehículo terminado más completo.",
+          "recommendedPriority": "Úsalo una vez que se complete el trabajo de reparación principal."
+        },
+        {
+          "category": "Piezas de rendimiento",
+          "role": "Mejora el aspecto de conducción mejorada de un vehículo",
+          "bestUsedFor": "Autos que planeas conservar, usar para competir o conducir por el mundo",
+          "impact": "Las mejoras de rendimiento conectan el ciclo del taller con las carreras y la exploración.",
+          "recommendedPriority": "Priorízalas en autos a largo plazo en lugar de en cada auto de reventa rápida."
+        },
+        {
+          "category": "Personalización",
+          "role": "Hace que los autos se adapten a tu estilo preferido",
+          "bestUsedFor": "Vehículos de ensueño, diseños de colección y autos de exhibición",
+          "impact": "La personalización convierte los vehículos reparados en creaciones distintivas en lugar de simples reventas genéricas.",
+          "recommendedPriority": "Ideal para los autos que vas a conservar."
+        },
+        {
+          "category": "Mejorar rendimiento",
+          "role": "Prepara los vehículos para un uso que va más allá de la simple venta",
+          "bestUsedFor": "Competir contra amigos y explorar el enorme mundo",
+          "impact": "Los autos mejorados se vuelven útiles para los aspectos sociales y de conducción del juego.",
+          "recommendedPriority": "Úsalo cuando un auto tenga un propósito de conducción, no solo de reventa."
+        }
+      ]
+    },
+    "carFlipperWorkshop": {
+      "title": "Guía de ganancias y expansión del taller de Car Flipper",
+      "subtitle": "Crece desde reparar coches averiados hasta construir un imperio automovilístico completo mediante decisiones más inteligentes de venta, colección y mejora.",
+      "intro": "El ciclo de progresión principal en Car Flipper comienza con vehículos dañados y se convierte en un negocio de coches centrado en el taller. Compra coches, repáralos, personalízalos, véndelos para obtener beneficios, guarda tus favoritos en tu colección y amplía tu taller a medida que tu garaje se vuelve más ambicioso.",
+      "goalLabel": "Objetivo",
+      "decisionLabel": "Mejor decisión",
+      "cards": [
+        {
+          "title": "Empieza con coches dañados",
+          "description": "Compra vehículos averiados y trátalos como proyectos de restauración.",
+          "goal": "Crea tu primer ciclo de reparación y venta.",
+          "bestDecision": "Elige coches que puedas terminar rápido antes de invertir profundamente en creaciones para tu colección."
+        },
+        {
+          "title": "Repara antes de personalizar",
+          "description": "La restauración es el primer paso antes del estilo, las piezas o la planificación de la reventa.",
+          "goal": "Convierte el coche de chatarra a un vehículo terminado.",
+          "bestDecision": "Completa la ruta de reparación básica antes de añadir mejoras adicionales."
+        },
+        {
+          "title": "Personaliza para obtener mejores acabados",
+          "description": "Usa la personalización para que cada vehículo reparado se sienta completo.",
+          "goal": "Crea coches que puedan convertirse en superventas o en piezas de tu colección personal.",
+          "bestDecision": "Dedica más esfuerzo de personalización a los coches que tengan un propósito claro de venta o colección."
+        },
+        {
+          "title": "Vende para obtener beneficios",
+          "description": "Los coches terminados se pueden vender como parte de la ruta principal de compraventa.",
+          "goal": "Usa las ventas exitosas para financiar el crecimiento del taller y futuros coches.",
+          "bestDecision": "Vende los coches construidos principalmente para obtener beneficios en lugar de los que quieras conservar a largo plazo."
+        },
+        {
+          "title": "Conserva coches de colección",
+          "description": "Vale la pena conservar algunos vehículos como coches de ensueño, modelos de exhibición o coches de carreras.",
+          "goal": "Crea una colección de vehículos personal, no solo un negocio de reventa.",
+          "bestDecision": "Quédate con los coches que quieras conducir, personalizar o usar para competir con amigos."
+        },
+        {
+          "title": "Amplía tu taller",
+          "description": "La expansión del taller apoya el objetivo mayor de construir un imperio automovilístico desde cero.",
+          "goal": "Pasa de reparaciones individuales a una operación de garaje más sólida a largo plazo.",
+          "bestDecision": "Usa los beneficios de los coches vendidos para apoyar una progresión más amplia del taller."
+        }
+      ]
+    },
+    "carFlipperRacing": {
+      "title": "Guía de carreras y exploración del mundo de Car Flipper",
+      "subtitle": "Usa los coches mejorados fuera del taller compitiendo con amigos, explorando el mundo masivo y conduciendo tus creaciones favoritas.",
+      "intro": "Car Flipper no se trata solo de comprar chatarra y vender coches terminados. Los vehículos mejorados también sirven para carreras, exploración, objetivos de colección y juego social, dándole un propósito a tus mejores creaciones después de salir del área de reparación.",
+      "items": [
+        {
+          "question": "¿Qué puedes hacer después de reparar un coche en Car Flipper?",
+          "answer": "Después de reparar un vehículo dañado, puedes personalizarlo, mejorarlo, guardarlo en tu colección, venderlo para obtener beneficios o usarlo como un modelo centrado en la conducción."
+        },
+        {
+          "question": "¿Cómo se conectan las mejoras de rendimiento con las carreras en Car Flipper?",
+          "answer": "Las piezas de rendimiento son más útiles en los coches que planeas conservar, usar para competir con amigos o conducir por el mundo en lugar de venderlos inmediatamente."
+        },
+        {
+          "question": "¿Por qué explorar el mundo de Car Flipper en lugar de solo vender coches?",
+          "answer": "La exploración da a los coches mejorados y personalizados un segundo propósito más allá de la reventa. Un coche puede convertirse en un vehículo que realmente conduzcas, exhibas y uses."
+        },
+        {
+          "question": "¿Qué coches de Car Flipper deberían usarse para competir con amigos?",
+          "answer": "Usa coches que hayan sido reparados, mejorados en rendimiento y personalizados según tu estilo de conducción preferido."
+        },
+        {
+          "question": "¿Cuándo deberías quedarte con un coche en lugar de venderlo en Car Flipper?",
+          "answer": "Quédate con los autos que complementen tu colección, tu meta de vehículo de ensueño, tus planes de carreras o tu estilo personal. Vende los autos que existan principalmente para generar ganancias para el crecimiento del taller."
+        },
+        {
+          "question": "¿Cómo encajan las carreras en el ciclo de juego de Car Flipper?",
+          "answer": "Las carreras les dan a los autos mejorados un valor más allá del taller. El ciclo consiste en comprar, reparar, personalizar, mejorar y luego vender para obtener ganancias o conducir el vehículo terminado."
+        }
+      ]
+    }
+  },
+  "faq": {
+    "title": "Preguntas",
+    "titleHighlight": "frecuentes",
+    "subtitle": "Todo lo que necesitas saber sobre Car Flipper",
+    "questions": [
+      {
+        "question": "¿Qué es Car Flipper en Roblox?",
+        "answer": "Car Flipper es un juego de simulación de vehículos en Roblox creado por A&B Group, actualmente listado como Car Flipper [TUNING SHOP]. El ciclo básico consiste en comprar autos dañados, repararlos, personalizarlos, mejorar su rendimiento y luego conservarlos o venderlos para obtener ganancias."
+      },
+      {
+        "question": "¿Cómo canjeo los códigos de Car Flipper?",
+        "answer": "Termina el tutorial, abre el ícono de regalo en la parte superior de la pantalla, ingresa el código y presiona Enter. Los códigos de Car Flipper suelen otorgar contenedores y piezas de autos que aceleran el progreso inicial en el taller."
+      },
+      {
+        "question": "¿Cuántos vehículos hay en Car Flipper?",
+        "answer": "La página oficial de Roblox destaca más de 100 vehículos únicos y cientos de opciones de personalización en Car Flipper, por lo que hay una amplia variedad de autos para reparar, mejorar, coleccionar y vender."
+      },
+      {
+        "question": "¿Qué hace el taller de tuning en Car Flipper?",
+        "answer": "El taller de tuning de Car Flipper es la etapa de mejora que viene después de las reparaciones. Una vez restaurado el auto, puedes usar piezas de tuning y de rendimiento para transformarlo en una versión más potente y personalizada antes de conservarlo o venderlo."
+      },
+      {
+        "question": "¿Es gratis jugar a Car Flipper?",
+        "answer": "Sí. Car Flipper es una experiencia gratuita de Roblox que puedes abrir desde la página oficial del juego en PC, dispositivos móviles y consolas."
+      },
+      {
+        "question": "¿Puedes competir contra amigos en Car Flipper?",
+        "answer": "Sí. Car Flipper incluye carreras contra amigos y la exploración de un mundo grande, por lo que los autos mejorados y personalizados tienen un propósito más allá del taller y del ciclo de reventa."
+      }
+    ]
+  },
+  "cta": {
+    "title": "¿Listo para comprar y vender autos en Car Flipper?",
+    "description": "¡Juega a Car Flipper en Roblox y únete a la comunidad de desarrolladores de A&B Group para obtener códigos, actualizaciones y consejos de tuning!",
+    "joinCommunity": "Visitar la comunidad",
+    "joinGame": "Jugar en Roblox"
+  },
+  "footer": {
+    "title": "Wiki de Car Flipper",
+    "description": "Tu centro de recursos completo para códigos de Car Flipper, reparación de vehículos, mejoras del taller de tuning, personalización de autos y guías de taller.",
+    "resources": "Recursos",
+    "community": "Comunidad",
+    "legal": "Legal",
+    "robloxGame": "Jugar en Roblox",
+    "robloxCommunity": "Comunidad de desarrolladores",
+    "youtube": "Ver gameplay",
+    "about": "Acerca de",
+    "privacy": "Política de privacidad",
+    "terms": "Términos de servicio",
+    "copyrightNotice": "Copyright",
+    "copyright": "© 2026 Car Flipper Wiki. No afiliado con A&B Group ni con los desarrolladores de Car Flipper.",
+    "disclaimer": "Sitio web de recursos no oficial creado por fanáticos."
+  },
+  "pages": {
+    "codes": {
+      "title": "Códigos de Car Flipper",
+      "description": "Reclama los últimos códigos activos de Car Flipper para obtener contenedores, piezas de autos y aumentos de progreso gratis. Actualizado con códigos activos verificados y pasos de canje claros.",
+      "metaTitle": "Códigos de Car Flipper - Contenedores y piezas gratis",
+      "metaDescription": "Consigue contenedores, piezas de autos y aumentos de progreso gratis con los códigos activos de Car Flipper. Actualizado con códigos activos verificados y pasos de canje claros.",
+      "categoryLabel": "CÓDIGOS DE CANJEO",
+      "whatIs": "¿Qué son los códigos de Car Flipper?",
+      "whatIsDescription": "Los códigos de Car Flipper son claves de canje lanzadas por los desarrolladores que otorgan contenedores gratuitos, piezas de autos y potenciadores de inicio para acelerar el progreso de tu taller de tuning.",
+      "why": "¿Por qué canjear códigos?",
+      "whySteps": {
+        "step1Title": "Recursos iniciales gratuitos",
+        "step1Description": "Reclama contenedores y piezas que aceleran tus primeras reparaciones y reventas sin gastar dinero del juego",
+        "step2Title": "Canje sencillo",
+        "step2Description": "Abre el menú del icono de regalo después del tutorial y pega cada código para recibir recompensas al instante",
+        "step3Title": "Mantente al día",
+        "step3Description": "Se lanzan nuevos códigos con las actualizaciones, así que vuelve a consultar regularmente antes de que los códigos antiguos expiren"
+      },
+      "featured": "Destacados y esenciales",
+      "all": "Todos los códigos"
+    },
+    "guide": {
+      "title": "Guía de Car Flipper",
+      "description": "Guías completas de Car Flipper, desde los conceptos básicos para principiantes hasta estrategias avanzadas de compraventa. Domina el ciclo de comprar, reparar, personalizar, mejorar y vender.",
+      "metaTitle": "Guía de Car Flipper - Estrategias de principiante a avanzado",
+      "metaDescription": "Guías completas de Car Flipper que cubren consejos para principiantes, el ciclo de reparación y tuning, estrategias de dinero y tácticas de expertos para el sandbox de compraventa de autos de Roblox.",
+      "categoryLabel": "GUÍAS DEL JUEGO",
+      "whatIs": "¿Qué es la guía de Car Flipper?",
+      "whatIsDescription": "Un centro de guías completo que cubre las mecánicas principales, el ciclo de reparación y tuning, y estrategias de progresión desde tu primer auto dañado hasta un imperio de tuning completo.",
+      "why": "¿Por qué leer las guías?",
+      "whySteps": {
+        "step1Title": "Aprende las mecánicas principales",
+        "step1Description": "Comprende el ciclo de comprar, reparar, personalizar, mejorar y vender, y evita errores de principiante",
+        "step2Title": "Progresa más rápido",
+        "step2Description": "Sigue rutas probadas para reparar, tunear y revender autos para obtener ganancias constantes",
+        "step3Title": "Domina estrategias",
+        "step3Description": "Desarrolla tácticas avanzadas para mejoras, colecciones y carreras"
+      },
+      "featured": "Destacados y esenciales",
+      "all": "Todas las guías"
+    },
+    "cars": {
+      "title": "Autos de Car Flipper",
+      "description": "Explora la lista completa de vehículos de Car Flipper con guías de tipos, rareza y valor para encontrar los mejores autos para reparar, tunear y revender.",
+      "metaTitle": "Autos de Car Flipper - Lista de vehículos, rareza y valor",
+      "metaDescription": "Explora cada vehículo de Car Flipper, incluyendo autos comunes, raros y de colección. Compara tipos, rareza y valor para elegir los mejores autos para revender o conservar.",
+      "categoryLabel": "LISTA DE VEHÍCULOS",
+      "whatIs": "¿Qué son los autos de Car Flipper?",
+      "whatIsDescription": "Una base de datos de los más de 100 vehículos en Car Flipper, que cubre tipos, rareza, valor de reventa y lógica de colección para que siempre sepas qué auto reparar, tunear o vender.",
+      "why": "¿Por qué estudiar la lista de autos?",
+      "whySteps": {
+        "step1Title": "Conoce los tipos de vehículos",
+        "step1Description": "Distingue entre autos comunes, raros y de colección para planificar las reparaciones y la reventa",
+        "step2Title": "Rastrea la rareza",
+        "step2Description": "Identifica vehículos raros que vale la pena coleccionar o conservar para obtener un mayor valor",
+        "step3Title": "Estimar valor",
+        "step3Description": "Evalúa el valor de reventa y de colección antes de invertir recursos en reparaciones y personalización."
+      },
+      "featured": "Destacados y esenciales",
+      "all": "Todos los autos"
+    },
+    "upgrades": {
+      "title": "Mejoras de Car Flipper",
+      "description": "Domina las mejoras de Car Flipper que abarcan reparaciones, piezas de rendimiento, mejoras de motor y carrocería, y personalización de pintura para lograr mejores configuraciones.",
+      "metaTitle": "Mejoras de Car Flipper - Piezas, reparación y rendimiento",
+      "metaDescription": "Guías completas de mejoras de Car Flipper que abarcan reparaciones, piezas de rendimiento, mejoras de motor y carrocería, y personalización de pintura para lograr configuraciones más potentes y valiosas.",
+      "categoryLabel": "MEJORAS DE AUTOS",
+      "whatIs": "¿Qué son las mejoras de Car Flipper?",
+      "whatIsDescription": "La sección de mejoras donde reparas daños, instalas piezas de rendimiento, mejoras motores y carrocerías, y personalizas la pintura para transformar los autos en configuraciones más potentes y valiosas.",
+      "why": "¿Por qué mejorar los autos?",
+      "whySteps": {
+        "step1Title": "Restaura primero",
+        "step1Description": "Completa las reparaciones estructurales y mecánicas antes de invertir en piezas costosas",
+        "step2Title": "Aumenta el rendimiento",
+        "step2Description": "Instala mejoras de motor y carrocería para mejorar la velocidad, el manejo y el valor de reventa",
+        "step3Title": "Personaliza el aspecto",
+        "step3Description": "Aplica pintura y acabados cosméticos para personalizar las creaciones para tu colección o venta"
+      },
+      "featured": "Destacados y esenciales",
+      "all": "Todas las mejoras"
+    },
+    "tier": {
+      "title": "Tier List de Car Flipper",
+      "description": "Compara vehículos y mejoras de Car Flipper con tier lists que clasifican los mejores autos para revender, competir y coleccionar.",
+      "metaTitle": "Tier List de Car Flipper - Clasificación de mejores autos y mejoras",
+      "metaDescription": "Consulta las tier lists de Car Flipper que clasifican los mejores vehículos y mejoras para revender, competir y coleccionar. Compara opciones antes de gastar recursos.",
+      "categoryLabel": "TIER LISTS",
+      "whatIs": "¿Qué es la Tier List de Car Flipper?",
+      "whatIsDescription": "Comparativas clasificadas de vehículos y mejoras de Car Flipper, que agrupan los autos según su valor de reventa, rendimiento en carreras y atractivo de colección para que puedas priorizar tus recursos.",
+      "why": "¿Por qué usar tier lists?",
+      "whySteps": {
+        "step1Title": "Clasificar por propósito",
+        "step1Description": "Mira qué autos destacan en la reventa, las carreras o la colección en niveles claros",
+        "step2Title": "Gasta de forma inteligente",
+        "step2Description": "Concentra los recursos de reparación y personalización en los autos de primer nivel en lugar de adivinar",
+        "step3Title": "Planifica tus diseños",
+        "step3Description": "Adapta las mejoras al nivel de cada auto y al rol que le quieras dar"
+      },
+      "featured": "Destacados y esenciales",
+      "all": "Todas las tier lists"
+    },
+    "workshop": {
+      "title": "Taller de Car Flipper",
+      "description": "Haz crecer tu taller de Car Flipper con expansiones, capacidad de garaje, decisiones de conservar o vender, y guías de venta y subastas.",
+      "metaTitle": "Taller de Car Flipper - Expansión, garaje y venta",
+      "metaDescription": "Domina la expansión del taller de Car Flipper con capacidad de garaje, decisiones de conservar o vender, y estrategias de venta y subasta para construir un negocio de autos rentable.",
+      "categoryLabel": "GUÍAS DEL TALLER",
+      "whatIs": "¿Qué es el taller de Car Flipper?",
+      "whatIsDescription": "Tu garaje y centro de negocios, donde gestionas la capacidad, amplías el espacio y decides qué coches reparados y tuneados conservar, vender o subastar para obtener beneficios.",
+      "why": "¿Por qué hacer crecer el taller?",
+      "whySteps": {
+        "step1Title": "Ampliar capacidad",
+        "step1Description": "Mejora el espacio y las plazas del garaje para gestionar más vehículos a la vez",
+        "step2Title": "Decide si conservar o vender",
+        "step2Description": "Evalúa qué coches revender para ganar dinero y cuáles conservar como piezas de colección",
+        "step3Title": "Maximizar ventas",
+        "step3Description": "Planifica las ventas y subastas para obtener el mejor rendimiento de los vehículos tuneados"
+      },
+      "featured": "Destacado y esencial",
+      "all": "Todas las guías del taller"
+    },
+    "achievements": {
+      "title": "Logros de Car Flipper",
+      "description": "Sigue de cerca cada logro e hito de Car Flipper con guías sobre requisitos, recompensas y las formas más rápidas de completarlos.",
+      "metaTitle": "Logros de Car Flipper - Lista completa y recompensas",
+      "metaDescription": "Completa cada logro de Car Flipper con guías sobre requisitos, recompensas y las rutas de desbloqueo más rápidas para terminar tu colección de hitos.",
+      "categoryLabel": "LOGROS",
+      "whatIs": "¿Qué son los logros de Car Flipper?",
+      "whatIsDescription": "Hitos del juego que te recompensan por reparar, tunear, coleccionar y vender coches, registrando tu progreso desde la primera reparación hasta un imperio del tuning completo.",
+      "why": "¿Por qué conseguir los logros?",
+      "whySteps": {
+        "step1Title": "Gana recompensas",
+        "step1Description": "Desbloquea recompensas de hitos que impulsen un crecimiento más rápido del taller",
+        "step2Title": "Sigue el progreso",
+        "step2Description": "Usa los logros como una hoja de ruta clara desde principiante hasta revendedor experto",
+        "step3Title": "Completa la colección",
+        "step3Description": "Completa cada hito para dominar por completo la experiencia de Car Flipper"
+      },
+      "featured": "Destacado y esencial",
+      "all": "Todos los logros"
+    }
   }
 }
