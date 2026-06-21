@@ -1,5 +1,5 @@
 import { CONTENT_TYPES as CONFIG_CONTENT_TYPES } from '@/config/navigation'
-import type { Locale } from '@/i18n/routing'
+import { routing, type Locale } from '@/i18n/routing'
 import contentManifest from '@/generated/content-manifest.json'
 
 /**
@@ -195,13 +195,13 @@ export function isValidContentType(type: string): type is ContentType {
  * 验证语言是否有效
  */
 export function isValidLanguage(lang: string): lang is Language {
-  const validLanguages: Language[] = ['en', 'ko', 'ja', 'th']
-  return validLanguages.includes(lang as Language)
+  // 从各站 routing 配置动态取 locales，避免硬编码某站的语言导致跨站类型不匹配
+  return (routing.locales as readonly string[]).includes(lang)
 }
 
 /**
  * 获取默认语言
  */
 export function getDefaultLanguage(): Language {
-  return 'en'
+  return routing.defaultLocale as Language
 }
