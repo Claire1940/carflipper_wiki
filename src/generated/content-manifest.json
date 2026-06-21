@@ -1,0 +1,626 @@
+{
+  "en": {
+    "achievements": [
+      {
+        "slug": "car-flipper-achievement",
+        "file": "car-flipper-achievement"
+      }
+    ],
+    "cars": [
+      {
+        "slug": "car-flipper-best-cars",
+        "file": "car-flipper-best-cars"
+      },
+      {
+        "slug": "car-flipper-car-list",
+        "file": "car-flipper-car-list"
+      },
+      {
+        "slug": "car-flipper-car-prices",
+        "file": "car-flipper-car-prices"
+      },
+      {
+        "slug": "car-flipper-car-value",
+        "file": "car-flipper-car-value"
+      },
+      {
+        "slug": "car-flipper-cars",
+        "file": "car-flipper-cars"
+      },
+      {
+        "slug": "car-flipper-fastest-cars",
+        "file": "car-flipper-fastest-cars"
+      },
+      {
+        "slug": "car-flipper-rare-cars",
+        "file": "car-flipper-rare-cars"
+      },
+      {
+        "slug": "car-flipper-vehicle-list",
+        "file": "car-flipper-vehicle-list"
+      }
+    ],
+    "codes": [
+      {
+        "slug": "car-flipper-codes",
+        "file": "car-flipper-codes"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "car-flipper-beginner-guide",
+        "file": "car-flipper-beginner-guide"
+      },
+      {
+        "slug": "car-flipper-guide",
+        "file": "car-flipper-guide"
+      },
+      {
+        "slug": "car-flipper-how-to-play",
+        "file": "car-flipper-how-to-play"
+      },
+      {
+        "slug": "car-flipper-money-guide",
+        "file": "car-flipper-money-guide"
+      },
+      {
+        "slug": "car-flipper-profit-guide",
+        "file": "car-flipper-profit-guide"
+      },
+      {
+        "slug": "car-flipper-progression-guide",
+        "file": "car-flipper-progression-guide"
+      },
+      {
+        "slug": "car-flipper-tips",
+        "file": "car-flipper-tips"
+      },
+      {
+        "slug": "car-flipper-walkthrough",
+        "file": "car-flipper-walkthrough"
+      }
+    ],
+    "tier": [
+      {
+        "slug": "car-flipper-best-vehicle-tier-list",
+        "file": "car-flipper-best-vehicle-tier-list"
+      },
+      {
+        "slug": "car-flipper-car-tier-list",
+        "file": "car-flipper-car-tier-list"
+      },
+      {
+        "slug": "car-flipper-tier-list",
+        "file": "car-flipper-tier-list"
+      },
+      {
+        "slug": "car-flipper-upgrade-tier-list",
+        "file": "car-flipper-upgrade-tier-list"
+      }
+    ],
+    "upgrades": [
+      {
+        "slug": "car-flipper-body-upgrades",
+        "file": "car-flipper-body-upgrades"
+      },
+      {
+        "slug": "car-flipper-engine-upgrades",
+        "file": "car-flipper-engine-upgrades"
+      },
+      {
+        "slug": "car-flipper-paint-guide",
+        "file": "car-flipper-paint-guide"
+      },
+      {
+        "slug": "car-flipper-parts",
+        "file": "car-flipper-parts"
+      },
+      {
+        "slug": "car-flipper-performance-upgrades",
+        "file": "car-flipper-performance-upgrades"
+      },
+      {
+        "slug": "car-flipper-repair-guide",
+        "file": "car-flipper-repair-guide"
+      },
+      {
+        "slug": "car-flipper-upgrades",
+        "file": "car-flipper-upgrades"
+      }
+    ],
+    "workshop": [
+      {
+        "slug": "car-flipper-auction-guide",
+        "file": "car-flipper-auction-guide"
+      },
+      {
+        "slug": "car-flipper-garage-guide",
+        "file": "car-flipper-garage-guide"
+      },
+      {
+        "slug": "car-flipper-keep-or-sell",
+        "file": "car-flipper-keep-or-sell"
+      },
+      {
+        "slug": "car-flipper-sell-cars",
+        "file": "car-flipper-sell-cars"
+      },
+      {
+        "slug": "car-flipper-workshop-expansion",
+        "file": "car-flipper-workshop-expansion"
+      },
+      {
+        "slug": "car-flipper-workshop",
+        "file": "car-flipper-workshop"
+      }
+    ]
+  },
+  "es": {
+    "achievements": [
+      {
+        "slug": "car-flipper-achievement",
+        "file": "car-flipper-achievement"
+      }
+    ],
+    "cars": [
+      {
+        "slug": "car-flipper-best-cars",
+        "file": "car-flipper-best-cars"
+      },
+      {
+        "slug": "car-flipper-car-list",
+        "file": "car-flipper-car-list"
+      },
+      {
+        "slug": "car-flipper-car-prices",
+        "file": "car-flipper-car-prices"
+      },
+      {
+        "slug": "car-flipper-car-value",
+        "file": "car-flipper-car-value"
+      },
+      {
+        "slug": "car-flipper-cars",
+        "file": "car-flipper-cars"
+      },
+      {
+        "slug": "car-flipper-fastest-cars",
+        "file": "car-flipper-fastest-cars"
+      },
+      {
+        "slug": "car-flipper-rare-cars",
+        "file": "car-flipper-rare-cars"
+      },
+      {
+        "slug": "car-flipper-vehicle-list",
+        "file": "car-flipper-vehicle-list"
+      }
+    ],
+    "codes": [
+      {
+        "slug": "car-flipper-codes",
+        "file": "car-flipper-codes"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "car-flipper-beginner-guide",
+        "file": "car-flipper-beginner-guide"
+      },
+      {
+        "slug": "car-flipper-guide",
+        "file": "car-flipper-guide"
+      },
+      {
+        "slug": "car-flipper-how-to-play",
+        "file": "car-flipper-how-to-play"
+      },
+      {
+        "slug": "car-flipper-money-guide",
+        "file": "car-flipper-money-guide"
+      },
+      {
+        "slug": "car-flipper-profit-guide",
+        "file": "car-flipper-profit-guide"
+      },
+      {
+        "slug": "car-flipper-progression-guide",
+        "file": "car-flipper-progression-guide"
+      },
+      {
+        "slug": "car-flipper-tips",
+        "file": "car-flipper-tips"
+      },
+      {
+        "slug": "car-flipper-walkthrough",
+        "file": "car-flipper-walkthrough"
+      }
+    ],
+    "tier": [
+      {
+        "slug": "car-flipper-best-vehicle-tier-list",
+        "file": "car-flipper-best-vehicle-tier-list"
+      },
+      {
+        "slug": "car-flipper-car-tier-list",
+        "file": "car-flipper-car-tier-list"
+      },
+      {
+        "slug": "car-flipper-tier-list",
+        "file": "car-flipper-tier-list"
+      },
+      {
+        "slug": "car-flipper-upgrade-tier-list",
+        "file": "car-flipper-upgrade-tier-list"
+      }
+    ],
+    "upgrades": [
+      {
+        "slug": "car-flipper-body-upgrades",
+        "file": "car-flipper-body-upgrades"
+      },
+      {
+        "slug": "car-flipper-engine-upgrades",
+        "file": "car-flipper-engine-upgrades"
+      },
+      {
+        "slug": "car-flipper-paint-guide",
+        "file": "car-flipper-paint-guide"
+      },
+      {
+        "slug": "car-flipper-parts",
+        "file": "car-flipper-parts"
+      },
+      {
+        "slug": "car-flipper-performance-upgrades",
+        "file": "car-flipper-performance-upgrades"
+      },
+      {
+        "slug": "car-flipper-repair-guide",
+        "file": "car-flipper-repair-guide"
+      },
+      {
+        "slug": "car-flipper-upgrades",
+        "file": "car-flipper-upgrades"
+      }
+    ],
+    "workshop": [
+      {
+        "slug": "car-flipper-auction-guide",
+        "file": "car-flipper-auction-guide"
+      },
+      {
+        "slug": "car-flipper-garage-guide",
+        "file": "car-flipper-garage-guide"
+      },
+      {
+        "slug": "car-flipper-keep-or-sell",
+        "file": "car-flipper-keep-or-sell"
+      },
+      {
+        "slug": "car-flipper-sell-cars",
+        "file": "car-flipper-sell-cars"
+      },
+      {
+        "slug": "car-flipper-workshop-expansion",
+        "file": "car-flipper-workshop-expansion"
+      },
+      {
+        "slug": "car-flipper-workshop",
+        "file": "car-flipper-workshop"
+      }
+    ]
+  },
+  "fr": {
+    "achievements": [
+      {
+        "slug": "car-flipper-achievement",
+        "file": "car-flipper-achievement"
+      }
+    ],
+    "cars": [
+      {
+        "slug": "car-flipper-best-cars",
+        "file": "car-flipper-best-cars"
+      },
+      {
+        "slug": "car-flipper-car-list",
+        "file": "car-flipper-car-list"
+      },
+      {
+        "slug": "car-flipper-car-prices",
+        "file": "car-flipper-car-prices"
+      },
+      {
+        "slug": "car-flipper-car-value",
+        "file": "car-flipper-car-value"
+      },
+      {
+        "slug": "car-flipper-cars",
+        "file": "car-flipper-cars"
+      },
+      {
+        "slug": "car-flipper-fastest-cars",
+        "file": "car-flipper-fastest-cars"
+      },
+      {
+        "slug": "car-flipper-rare-cars",
+        "file": "car-flipper-rare-cars"
+      },
+      {
+        "slug": "car-flipper-vehicle-list",
+        "file": "car-flipper-vehicle-list"
+      }
+    ],
+    "codes": [
+      {
+        "slug": "car-flipper-codes",
+        "file": "car-flipper-codes"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "car-flipper-beginner-guide",
+        "file": "car-flipper-beginner-guide"
+      },
+      {
+        "slug": "car-flipper-guide",
+        "file": "car-flipper-guide"
+      },
+      {
+        "slug": "car-flipper-how-to-play",
+        "file": "car-flipper-how-to-play"
+      },
+      {
+        "slug": "car-flipper-money-guide",
+        "file": "car-flipper-money-guide"
+      },
+      {
+        "slug": "car-flipper-profit-guide",
+        "file": "car-flipper-profit-guide"
+      },
+      {
+        "slug": "car-flipper-progression-guide",
+        "file": "car-flipper-progression-guide"
+      },
+      {
+        "slug": "car-flipper-tips",
+        "file": "car-flipper-tips"
+      },
+      {
+        "slug": "car-flipper-walkthrough",
+        "file": "car-flipper-walkthrough"
+      }
+    ],
+    "tier": [
+      {
+        "slug": "car-flipper-best-vehicle-tier-list",
+        "file": "car-flipper-best-vehicle-tier-list"
+      },
+      {
+        "slug": "car-flipper-car-tier-list",
+        "file": "car-flipper-car-tier-list"
+      },
+      {
+        "slug": "car-flipper-tier-list",
+        "file": "car-flipper-tier-list"
+      },
+      {
+        "slug": "car-flipper-upgrade-tier-list",
+        "file": "car-flipper-upgrade-tier-list"
+      }
+    ],
+    "upgrades": [
+      {
+        "slug": "car-flipper-body-upgrades",
+        "file": "car-flipper-body-upgrades"
+      },
+      {
+        "slug": "car-flipper-engine-upgrades",
+        "file": "car-flipper-engine-upgrades"
+      },
+      {
+        "slug": "car-flipper-paint-guide",
+        "file": "car-flipper-paint-guide"
+      },
+      {
+        "slug": "car-flipper-parts",
+        "file": "car-flipper-parts"
+      },
+      {
+        "slug": "car-flipper-performance-upgrades",
+        "file": "car-flipper-performance-upgrades"
+      },
+      {
+        "slug": "car-flipper-repair-guide",
+        "file": "car-flipper-repair-guide"
+      },
+      {
+        "slug": "car-flipper-upgrades",
+        "file": "car-flipper-upgrades"
+      }
+    ],
+    "workshop": [
+      {
+        "slug": "car-flipper-auction-guide",
+        "file": "car-flipper-auction-guide"
+      },
+      {
+        "slug": "car-flipper-garage-guide",
+        "file": "car-flipper-garage-guide"
+      },
+      {
+        "slug": "car-flipper-keep-or-sell",
+        "file": "car-flipper-keep-or-sell"
+      },
+      {
+        "slug": "car-flipper-sell-cars",
+        "file": "car-flipper-sell-cars"
+      },
+      {
+        "slug": "car-flipper-workshop-expansion",
+        "file": "car-flipper-workshop-expansion"
+      },
+      {
+        "slug": "car-flipper-workshop",
+        "file": "car-flipper-workshop"
+      }
+    ]
+  },
+  "pt": {
+    "achievements": [
+      {
+        "slug": "car-flipper-achievement",
+        "file": "car-flipper-achievement"
+      }
+    ],
+    "cars": [
+      {
+        "slug": "car-flipper-best-cars",
+        "file": "car-flipper-best-cars"
+      },
+      {
+        "slug": "car-flipper-car-list",
+        "file": "car-flipper-car-list"
+      },
+      {
+        "slug": "car-flipper-car-prices",
+        "file": "car-flipper-car-prices"
+      },
+      {
+        "slug": "car-flipper-car-value",
+        "file": "car-flipper-car-value"
+      },
+      {
+        "slug": "car-flipper-cars",
+        "file": "car-flipper-cars"
+      },
+      {
+        "slug": "car-flipper-fastest-cars",
+        "file": "car-flipper-fastest-cars"
+      },
+      {
+        "slug": "car-flipper-rare-cars",
+        "file": "car-flipper-rare-cars"
+      },
+      {
+        "slug": "car-flipper-vehicle-list",
+        "file": "car-flipper-vehicle-list"
+      }
+    ],
+    "codes": [
+      {
+        "slug": "car-flipper-codes",
+        "file": "car-flipper-codes"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "car-flipper-beginner-guide",
+        "file": "car-flipper-beginner-guide"
+      },
+      {
+        "slug": "car-flipper-guide",
+        "file": "car-flipper-guide"
+      },
+      {
+        "slug": "car-flipper-how-to-play",
+        "file": "car-flipper-how-to-play"
+      },
+      {
+        "slug": "car-flipper-money-guide",
+        "file": "car-flipper-money-guide"
+      },
+      {
+        "slug": "car-flipper-profit-guide",
+        "file": "car-flipper-profit-guide"
+      },
+      {
+        "slug": "car-flipper-progression-guide",
+        "file": "car-flipper-progression-guide"
+      },
+      {
+        "slug": "car-flipper-tips",
+        "file": "car-flipper-tips"
+      },
+      {
+        "slug": "car-flipper-walkthrough",
+        "file": "car-flipper-walkthrough"
+      }
+    ],
+    "tier": [
+      {
+        "slug": "car-flipper-best-vehicle-tier-list",
+        "file": "car-flipper-best-vehicle-tier-list"
+      },
+      {
+        "slug": "car-flipper-car-tier-list",
+        "file": "car-flipper-car-tier-list"
+      },
+      {
+        "slug": "car-flipper-tier-list",
+        "file": "car-flipper-tier-list"
+      },
+      {
+        "slug": "car-flipper-upgrade-tier-list",
+        "file": "car-flipper-upgrade-tier-list"
+      }
+    ],
+    "upgrades": [
+      {
+        "slug": "car-flipper-body-upgrades",
+        "file": "car-flipper-body-upgrades"
+      },
+      {
+        "slug": "car-flipper-engine-upgrades",
+        "file": "car-flipper-engine-upgrades"
+      },
+      {
+        "slug": "car-flipper-paint-guide",
+        "file": "car-flipper-paint-guide"
+      },
+      {
+        "slug": "car-flipper-parts",
+        "file": "car-flipper-parts"
+      },
+      {
+        "slug": "car-flipper-performance-upgrades",
+        "file": "car-flipper-performance-upgrades"
+      },
+      {
+        "slug": "car-flipper-repair-guide",
+        "file": "car-flipper-repair-guide"
+      },
+      {
+        "slug": "car-flipper-upgrades",
+        "file": "car-flipper-upgrades"
+      }
+    ],
+    "workshop": [
+      {
+        "slug": "car-flipper-auction-guide",
+        "file": "car-flipper-auction-guide"
+      },
+      {
+        "slug": "car-flipper-garage-guide",
+        "file": "car-flipper-garage-guide"
+      },
+      {
+        "slug": "car-flipper-keep-or-sell",
+        "file": "car-flipper-keep-or-sell"
+      },
+      {
+        "slug": "car-flipper-sell-cars",
+        "file": "car-flipper-sell-cars"
+      },
+      {
+        "slug": "car-flipper-workshop-expansion",
+        "file": "car-flipper-workshop-expansion"
+      },
+      {
+        "slug": "car-flipper-workshop",
+        "file": "car-flipper-workshop"
+      }
+    ]
+  }
+}
