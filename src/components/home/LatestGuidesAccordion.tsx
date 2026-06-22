@@ -26,7 +26,7 @@ function AccordionColumn({
       aria-label="Latest articles"
     >
       {articles.map((article, index) => {
-        const url = `/${locale}/${article.contentType}/${article.slug}`;
+        const url = (locale === 'en' ? `/${article.contentType}/${article.slug}` : `/${locale}/${article.contentType}/${article.slug}`);
         const detailsId = `article-${article.contentType}-${article.slug}`;
 
         return (
